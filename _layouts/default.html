@@ -9,11 +9,12 @@
     :root { --sidebar-w: 280px; }
 
     body {
-    margin: 0;
-    font-family: "Meiryo UI", Meiryo, "Segoe UI", system-ui, sans-serif;
-    line-height: 1.7;
-    font-size: 15px;
+      margin: 0;
+      font-family: "Meiryo UI", Meiryo, "Segoe UI", system-ui, sans-serif;
+      line-height: 1.7;
+      font-size: 15px;
     }
+
     a { text-decoration: none; }
     a:hover { text-decoration: underline; }
 
@@ -45,7 +46,14 @@
     }
 
     .nav-section { margin: 14px 0; }
-    .nav-section-title { font-size: 12px; color: #6b7280; margin: 0 0 6px 0; text-transform: uppercase; letter-spacing: .04em; }
+    .nav-section-title {
+      font-size: 12px;
+      color: #6b7280;
+      margin: 0 0 6px 0;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+
     .nav a {
       display: block;
       padding: 6px 8px;
@@ -54,6 +62,12 @@
       margin: 2px 0;
     }
     .nav a.active { background: #e8eefc; font-weight: 600; }
+
+    /* 見出しサイズを固定（ページによってデカく見えるのを防ぐ） */
+    .content h1 { font-size: 24px; margin: 0 0 12px; }
+    .content h2 { font-size: 18px; margin: 18px 0 10px; }
+    .content h3 { font-size: 16px; margin: 14px 0 8px; }
+    .content p, .content li { font-size: 15px; }
 
     /* モバイル対応（縦並び） */
     @media (max-width: 900px) {
