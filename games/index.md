@@ -7,7 +7,7 @@ title: ゲーム一覧
 
 ## 現在登録されているゲーム
 
-- [スイーツランド](sweetlands.html)
+- [Sweet Lands（スイーツランド）](sweetlands.html)
 
 ---
 
