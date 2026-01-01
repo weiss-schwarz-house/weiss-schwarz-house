@@ -1,93 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.title %}{{ page.title }} | {% endif %}ヴァイスシュヴァルツの館</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}ヴァイスシュヴァルツの館
+    </title>
 
-  <style>
-    :root { --sidebar-w: 280px; }
+    <style>
+      :root {
+        --sidebar-w: 280px;
+      }
 
-    body {
-      margin: 0;
-      font-family: "Meiryo UI", Meiryo, "Segoe UI", system-ui, sans-serif;
-      line-height: 1.7;
-      font-size: 15px;
-    }
+      body {
+        margin: 0;
+        font-family: "Meiryo UI", Meiryo, "Segoe UI", system-ui, sans-serif;
+        line-height: 1.7;
+        font-size: 15px;
+      }
 
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
 
-    .layout { display: flex; min-height: 100vh; }
+      .layout {
+        display: flex;
+        min-height: 100vh;
+      }
 
-    .sidebar {
-      width: var(--sidebar-w);
-      background: #f6f7f9;
-      border-right: 1px solid #e5e7eb;
-      padding: 16px 14px;
-      box-sizing: border-box;
-      overflow-y: auto;
-      position: sticky;
-      top: 0;
-      height: 100vh;
-    }
+      /* ===== Sidebar (PC) ===== */
+      .sidebar {
+        width: var(--sidebar-w);
+        background: #f6f7f9;
+        border-right: 1px solid #e5e7eb;
+        padding: 16px 14px;
+        box-sizing: border-box;
+        overflow-y: auto;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+      }
 
-    .content {
-      flex: 1;
-      padding: 24px 28px;
-      box-sizing: border-box;
-      max-width: 1100px;
-    }
+      .site-title {
+        font-weight: 700;
+        margin: 2px 0 12px 0;
+        font-size: 16px;
+      }
 
-    .site-title {
-      font-weight: 700;
-      margin: 2px 0 12px 0;
-      font-size: 16px;
-    }
+      .nav-section {
+        margin: 14px 0;
+      }
+      .nav-section-title {
+        font-size: 12px;
+        color: #6b7280;
+        margin: 0 0 6px 0;
+      }
 
-    .nav-section { margin: 14px 0; }
-    .nav-section-title {
-      font-size: 12px;
-      color: #6b7280;
-      margin: 0 0 6px 0;
-      text-transform: none;
-      letter-spacing: 0;
-    }
+      .nav a {
+        display: block;
+        padding: 6px 8px;
+        border-radius: 8px;
+        color: #111827;
+        margin: 2px 0;
+      }
+      .nav a.active {
+        background: #e8eefc;
+        font-weight: 600;
+      }
 
-    .nav a {
-      display: block;
-      padding: 6px 8px;
-      border-radius: 8px;
-      color: #111827;
-      margin: 2px 0;
-    }
-    .nav a.active { background: #e8eefc; font-weight: 600; }
+      /* ===== Content 見出しサイズを固定（ページによってデカく見えるのを防ぐ ===== */
+      .content {
+        flex: 1;
+        padding: 24px 28px;
+        box-sizing: border-box;
+        max-width: 1100px;
+      }
 
-    /* 見出しサイズを固定（ページによってデカく見えるのを防ぐ） */
-    .content h1 { font-size: 24px; margin: 0 0 12px; }
-    .content h2 { font-size: 18px; margin: 18px 0 10px; }
-    .content h3 { font-size: 16px; margin: 14px 0 8px; }
-    .content p, .content li { font-size: 15px; }
+      .content h1 {
+        font-size: 24px;
+        margin: 0 0 12px;
+      }
+      .content h2 {
+        font-size: 18px;
+        margin: 18px 0 10px;
+      }
+      .content h3 {
+        font-size: 16px;
+        margin: 14px 0 8px;
+      }
+      .content p,
+      .content li {
+        font-size: 15px;
+      }
 
-    /* モバイル対応（縦並び） */
-    @media (max-width: 900px) {
-      .layout { flex-direction: column; }
-      .sidebar { width: 100%; height: auto; position: relative; }
-      .content { padding: 16px; max-width: none; }
-    }
-  </style>
-</head>
+      /* ===== Topbar (Mobile) ===== */
+      .topbar {
+        display: none;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        font-size: 13px;
+        padding: 10px 12px;
+        border-bottom: 1px solid #e5e7eb;
+        background: #fff;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      .topbar a {
+        color: #111827;
+      }
+      .topbar .sep {
+        color: #9ca3af;
+      }
+      .topbar .current {
+        font-weight: 600;
+      }
 
-<body>
-  <div class="layout">
-    <aside class="sidebar">
-      <div class="site-title">ヴァイスシュヴァルツの館</div>
-      {% include sidebar.html %}
-    </aside>
+      /* ===== Mobile ===== */
+      @media (max-width: 900px) {
+        .layout {
+          flex-direction: column;
+        }
 
-    <main class="content">
-      {{ content }}
-    </main>
-  </div>
-</body>
+        /* モバイルではサイドバーを使わない */
+        .sidebar {
+          display: none;
+        }
+
+        /* トップバーを表示 */
+        .topbar {
+          display: flex;
+        }
+
+        .content {
+          padding: 16px;
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="site-title">ヴァイスシュヴァルツの館</div>
+        {% include sidebar.html %}
+      </aside>
+
+      <div class="topbar">
+        <a href="{{ '/' | relative_url }}">トップ</a>
+        <span class="sep">›</span>
+        <a href="{{ '/games/' | relative_url }}">ゲーム一覧</a>
+        {% if page.title %}
+        <span class="sep">›</span>
+        <span class="current">{{ page.title }}</span>
+        {% endif %}
+      </div>
+
+      <main class="content">{{ content }}</main>
+    </div>
+  </body>
 </html>
