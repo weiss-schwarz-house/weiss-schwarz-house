@@ -18,13 +18,10 @@ thumbnail_url: "https://www.dropbox.com/scl/fi/ayv6x2db3dv99sks31l2h/pic8329173.
 thumbnail_alt: "Sweet Lands（スイーツランド）"
 bgg_url: "https://boardgamegeek.com/boardgame/425445/sweet-lands"
 ---
-
 ## ルールブック
 - [Sweet Lands ルールブック（PDF）]({{ page.rulebook_url }})
 
 ---
-
-## ルールブック
 ## 動画
 - [Sweet Lands ルール解説動画（YouTube）](https://www.youtube.com/watch?v=AcTADu5EfaY)
 
