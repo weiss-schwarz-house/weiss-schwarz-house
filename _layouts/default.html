@@ -161,7 +161,45 @@
         {% endif %}
       </div>
 
-      <main class="content">{{ content }}</main>
+      <main class="content">
+        {% if page.section == 'game' %}
+        <div class="game-hero">
+          {% if page.thumbnail_url %}
+          <img
+            class="game-thumb"
+            src="{{ page.thumbnail_url | relative_url }}"
+            alt="{{ page.title }}"
+          />
+          {% endif %}
+
+          <div class="game-hero-meta">
+            <div class="game-hero-title">{{ page.title }}</div>
+
+            <div class="game-hero-sub">
+              {% if page.players_min %}{{ page.players_min }}–{{
+              page.players_max }}人{% endif %} {% if page.time_min %} / {{
+              page.time_min }}–{{ page.time_max }}分{% endif %} {% if page.age
+              %} / {{ page.age }}+{% endif %} {% if page.weight %} / {{
+              page.weight }}{% endif %}
+            </div>
+
+            <div class="game-hero-links">
+              {% if page.rulebook_url %}
+              <a href="{{ page.rulebook_url }}" target="_blank" rel="noopener"
+                >ルールブック</a
+              >
+              {% endif %} {% if page.bgg_url %}
+              <span class="sep">|</span>
+              <a href="{{ page.bgg_url }}" target="_blank" rel="noopener"
+                >BGG</a
+              >
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <hr />
+        {% endif %} {{ content }}
+      </main>
     </div>
   </body>
 </html>
