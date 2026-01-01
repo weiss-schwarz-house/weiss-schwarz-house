@@ -1,11 +1,6 @@
 ---
-layout: default
+layout: game_list
 title: ゲーム一覧
 ---
 ## 現在登録されているゲーム
-
-- [Sweet Lands（スイーツランド）](sweetlands.html)
-
----
-
-※ 今後ここにゲームが追加されていきます。
+（自動的にリストが表示されます）
