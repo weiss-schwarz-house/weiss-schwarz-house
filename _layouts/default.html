@@ -120,6 +120,11 @@
         font-weight: 600;
       }
 
+      .page-title {
+        font-size: 24px;
+        margin: 0 0 10px 0;
+      }
+
       /* ===== Mobile ===== */
       @media (max-width: 900px) {
         .layout {
@@ -162,7 +167,9 @@
       </div>
 
       <main class="content">
-        {% if page.thumbnail_url %}
+        {% if page.title %}
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% endif %} {% if page.thumbnail_url %}
         <div class="thumb-wrap">
           <img
             class="thumb"

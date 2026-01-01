@@ -19,8 +19,6 @@ thumbnail_alt: "Sweet Lands（スイーツランド）"
 bgg_url: "https://boardgamegeek.com/boardgame/425445/sweet-lands"
 ---
 
-# Sweet Lands（スイーツランド）
-
 ## ルールブック
 - [Sweet Lands ルールブック（PDF）]({{ page.rulebook_url }})
 
