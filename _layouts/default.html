@@ -146,6 +146,73 @@
           max-width: none;
         }
       }
+
+      /* ===== 詳細ページ用サムネイル ===== */
+      .thumb-wrap {
+        margin-bottom: 24px;
+      }
+      .thumb {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      /* ===== ゲーム一覧リスト（BGG風） ===== */
+      .game-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      .game-table th {
+        text-align: left;
+        background: #f4f4f4;
+        padding: 10px;
+        border-bottom: 2px solid #ddd;
+        font-size: 14px;
+      }
+      .game-table td {
+        border-bottom: 1px solid #eee;
+        padding: 15px 10px;
+        vertical-align: top;
+      }
+
+      /* 一覧用の小さな画像 */
+      .game-table-img {
+        width: 110px;
+        text-align: center;
+      }
+      .game-table-img img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover; /* 正方形にトリミング */
+        border-radius: 6px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .game-table-info h3 {
+        margin: 0 0 6px 0;
+        font-size: 18px;
+      }
+      .game-table-info h3 a {
+        color: #111827;
+        font-weight: 700;
+      }
+      .game-table-meta {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 8px;
+      }
+      .game-tag {
+        display: inline-block;
+        font-size: 12px;
+        background: #f3f4f6;
+        padding: 2px 8px;
+        border-radius: 12px;
+        margin-right: 4px;
+        color: #4b5563;
+        margin-bottom: 4px;
+      }
     </style>
   </head>
 

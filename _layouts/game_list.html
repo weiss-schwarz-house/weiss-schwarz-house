@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<table class="game-table">
+  <thead>
+    <tr>
+      <th class="game-table-img">Image</th>
+      <th>Game Information</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% assign games = site.pages | where_exp: "item", "item.path contains
+    'games/'" | sort: "title" %} {% for game in games %} {% unless game.path
+    contains 'index.md' %}
+    <tr>
+      <td class="game-table-img">
+        {% if game.thumbnail_url %}
+        <a href="{{ game.url | relative_url }}">
+          <img src="{{ game.thumbnail_url }}" alt="{{ game.title }}" />
+        </a>
+        {% else %}
+        <span style="color: #ccc; font-size: 12px">No Image</span>
+        {% endif %}
+      </td>
+      <td class="game-table-info">
+        <h3><a href="{{ game.url | relative_url }}">{{ game.title }}</a></h3>
+        <div class="game-table-meta">
+          {% if game.players_min %}👥 {{ game.players_min }}{% if
+          game.players_max != game.players_min %} - {{ game.players_max }}{%
+          endif %}人{% endif %} {% if game.time_min %} | ⏱ {{ game.time_min }}{%
+          if game.time_max != game.time_min %} - {{ game.time_max }}{% endif
+          %}分{% endif %} {% if game.weight %} | ⚖ {{ game.weight }}{% endif %}
+        </div>
+        <div class="game-tags">
+          {% for tag in game.tags %}<span class="game-tag">{{ tag }}</span>{%
+          endfor %}
+        </div>
+      </td>
+    </tr>
+    {% endunless %} {% endfor %}
+  </tbody>
+</table>
