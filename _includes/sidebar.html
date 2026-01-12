@@ -2,32 +2,34 @@
   <div class="nav-section">
     <div class="nav-section-title">Menu</div>
     <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">トップ</a>
-    <a href="{{ '/games/' | relative_url }}" class="{% if page.url contains '/games/' and page.url == '/games/' %}active{% endif %}">ゲーム一覧</a>
+    <a
+      href="{{ '/games/' | relative_url }}"
+      class="{% if page.url contains '/games/' and page.url == '/games/' %}active{% endif %}"
+      >ゲーム一覧</a
+    >
   </div>
 
   <div class="nav-section">
     <div class="nav-section-title">Games</div>
 
     <!-- games/ 配下のページを自動で列挙（index.mdは除外） -->
-    {% assign games_pages = site.pages
-      | where_exp: "p", "p.url contains '/games/'"
-      | where_exp: "p", "p.url != '/games/'"
-      | sort: "title" %}
-
-    {% if games_pages.size > 0 %}
-      {% for g in games_pages %}
-        <a href="{{ g.url | relative_url }}" class="{% if page.url == g.url %}active{% endif %}">
-          {{ g.title }}
-        </a>
-      {% endfor %}
-    {% else %}
-      <span style="color:#6b7280;">（ゲームページなし）</span>
+    {% assign games_pages = site.pages | where_exp: "p", "p.url contains '/games/'" | where_exp: "p", "p.url !=
+    '/games/'" | sort: "title" %} {% if games_pages.size > 0 %} {% for g in games_pages %}
+    <a href="{{ g.url | relative_url }}" class="{% if page.url == g.url %}active{% endif %}"> {{ g.title }} </a>
+    {% endfor %} {% else %}
+    <span style="color: #6b7280">（ゲームページなし）</span>
     {% endif %}
   </div>
 
   <div class="nav-section">
     <div class="nav-section-title">Lists</div>
-    <a href="{{ '/lists/players.html' | relative_url }}" class="{% if page.url == '/lists/players.html' %}active{% endif %}">人数別</a>
-    <a href="{{ '/lists/time.html' | relative_url }}" class="{% if page.url == '/lists/time.html' %}active{% endif %}">時間別</a>
+    <a
+      href="{{ '/lists/players.html' | relative_url }}"
+      class="{% if page.url == '/lists/players.html' %}active{% endif %}"
+      >人数別</a
+    >
+    <a href="{{ '/lists/time.html' | relative_url }}" class="{% if page.url == '/lists/time.html' %}active{% endif %}"
+      >時間別</a
+    >
   </div>
 </nav>
