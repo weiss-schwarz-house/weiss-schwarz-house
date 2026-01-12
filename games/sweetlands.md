@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sweet Lands（スイーツランド）
+toc: true
 players_min: 1
 players_max: 4
 time_min: 100
@@ -32,7 +33,7 @@ bgg_url: "https://boardgamegeek.com/boardgame/425445/sweet-lands"
 
 ---
 
-##補足
+## 補足
 
 ### ① キャラクターについて
 

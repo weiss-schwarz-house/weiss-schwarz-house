@@ -224,40 +224,41 @@
       }
 
       /* ===== Mobile ===== */
-      @media (max-width: 900px) {
-        .layout {
-          flex-direction: column;
-        }
+        @media (max-width: 900px) {
+        .layout { flex-direction: column; }
 
-        .sidebar {
-          display: none;
-        }
-        .topbar {
-          display: flex;
-        }
+        .sidebar { display: none; }
+        .topbar { display: flex; }
 
-        .content {
-          padding: 16px;
-          max-width: none;
-        }
+        .content { padding: 16px; max-width: none; }
 
-        /* モバイルは目次を上に出す（折りたたみ） */
+        /* モバイルは「本文 + 目次」を縦並びにして、目次を上へ */
         .page-grid {
-          grid-template-columns: 1fr;
+            display: flex;              /* ← grid をやめて flex にする */
+            flex-direction: column;     /* ← 縦並び */
+            gap: 12px;
         }
+
+        /* 表示順：目次 → 本文 */
+        #toc { order: 1; }
+        #page-body { order: 2; }
+
+        /* 目次の見た目（カード風） */
         .toc {
-          position: relative;
-          top: auto;
-          max-height: none;
-          border-left: none;
-          padding-left: 0;
-          border: 1px solid #e5e7eb;
-          border-radius: 10px;
-          padding: 10px 12px;
-          margin: 0 0 12px 0;
-          background: #fff;
+            position: relative;
+            top: auto;
+            max-height: none;
+            overflow: visible;
+            border-left: none;
+            padding-left: 0;
+
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 10px 12px;
+            margin: 0;
+            background: #fff;
         }
-      }
+        }
     </style>
   </head>
 
@@ -291,8 +292,8 @@
         <div class="page-grid">
           <article id="page-body">{{ content }}</article>
 
-          <!-- 目次（ページ側で toc: false にすると非表示） -->
-          {% if page.toc != false %}
+          <!-- 目次（ページ側で toc: true にすると表示） -->
+          {% if page.toc == true %}
           <aside class="toc" id="toc">
             <details open>
               <summary class="toc-title">目次</summary>
