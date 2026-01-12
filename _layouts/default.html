@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      {% if page.title %}{{ page.title }} | {% endif %}ヴァイスシュヴァルツの館
-    </title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}ヴァイスシュヴァルツの館</title>
 
     <style>
-      :root { --sidebar-w: 280px; }
+      :root {
+        --sidebar-w: 280px;
+      }
 
       body {
         margin: 0;
@@ -17,10 +17,17 @@
         font-size: 15px;
       }
 
-      a { text-decoration: none; }
-      a:hover { text-decoration: underline; }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
 
-      .layout { display: flex; min-height: 100vh; }
+      .layout {
+        display: flex;
+        min-height: 100vh;
+      }
 
       /* ===== Sidebar (PC) ===== */
       .sidebar {
@@ -35,10 +42,20 @@
         height: 100vh;
       }
 
-      .site-title { font-weight: 700; margin: 2px 0 12px 0; font-size: 16px; }
+      .site-title {
+        font-weight: 700;
+        margin: 2px 0 12px 0;
+        font-size: 16px;
+      }
 
-      .nav-section { margin: 14px 0; }
-      .nav-section-title { font-size: 12px; color: #6b7280; margin: 0 0 6px 0; }
+      .nav-section {
+        margin: 14px 0;
+      }
+      .nav-section-title {
+        font-size: 12px;
+        color: #6b7280;
+        margin: 0 0 6px 0;
+      }
 
       .nav a {
         display: block;
@@ -47,7 +64,10 @@
         color: #111827;
         margin: 2px 0;
       }
-      .nav a.active { background: #e8eefc; font-weight: 600; }
+      .nav a.active {
+        background: #e8eefc;
+        font-weight: 600;
+      }
 
       /* ===== Content ===== */
       .content {
@@ -57,10 +77,22 @@
         max-width: 1100px;
       }
 
-      .content h1 { font-size: 24px; margin: 0 0 12px; }
-      .content h2 { font-size: 18px; margin: 18px 0 10px; }
-      .content h3 { font-size: 16px; margin: 14px 0 8px; }
-      .content p, .content li { font-size: 15px; }
+      .content h1 {
+        font-size: 24px;
+        margin: 0 0 12px;
+      }
+      .content h2 {
+        font-size: 18px;
+        margin: 18px 0 10px;
+      }
+      .content h3 {
+        font-size: 16px;
+        margin: 14px 0 8px;
+      }
+      .content p,
+      .content li {
+        font-size: 15px;
+      }
 
       /* ===== Topbar (Mobile) ===== */
       .topbar {
@@ -76,19 +108,30 @@
         top: 0;
         z-index: 10;
       }
-      .topbar a { color: #111827; }
-      .topbar .sep { color: #9ca3af; }
-      .topbar .current { font-weight: 600; }
+      .topbar a {
+        color: #111827;
+      }
+      .topbar .sep {
+        color: #9ca3af;
+      }
+      .topbar .current {
+        font-weight: 600;
+      }
 
-      .page-title { font-size: 24px; margin: 0 0 10px 0; }
+      .page-title {
+        font-size: 24px;
+        margin: 0 0 10px 0;
+      }
 
       /* ===== 詳細ページ用サムネイル ===== */
-      .thumb-wrap { margin-bottom: 24px; }
+      .thumb-wrap {
+        margin-bottom: 24px;
+      }
       .thumb {
         max-width: 100%;
         height: auto;
         border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
 
       /* ===== ゲーム一覧リスト（BGG風） ===== */
@@ -109,17 +152,30 @@
         padding: 15px 10px;
         vertical-align: top;
       }
-      .game-table-img { width: 110px; text-align: center; }
+      .game-table-img {
+        width: 110px;
+        text-align: center;
+      }
       .game-table-img img {
         width: 90px;
         height: 90px;
         object-fit: cover;
         border-radius: 6px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
-      .game-table-info h3 { margin: 0 0 6px 0; font-size: 18px; }
-      .game-table-info h3 a { color: #111827; font-weight: 700; }
-      .game-table-meta { font-size: 13px; color: #666; margin-bottom: 8px; }
+      .game-table-info h3 {
+        margin: 0 0 6px 0;
+        font-size: 18px;
+      }
+      .game-table-info h3 a {
+        color: #111827;
+        font-weight: 700;
+      }
+      .game-table-meta {
+        font-size: 13px;
+        color: #666;
+        margin-bottom: 8px;
+      }
       .game-tag {
         display: inline-block;
         font-size: 12px;
@@ -132,14 +188,14 @@
       }
 
       /* ===== TOC (目次) ===== */
-      .page-grid{
+      .page-grid {
         display: grid;
         grid-template-columns: minmax(0, 1fr) 260px; /* 本文 + 目次 */
         gap: 18px;
         align-items: start;
       }
 
-      .toc{
+      .toc {
         border-left: 1px solid #e5e7eb;
         padding-left: 14px;
         position: sticky;
@@ -147,30 +203,49 @@
         max-height: calc(100vh - 80px);
         overflow: auto;
       }
-      .toc-title{
+      .toc-title {
         font-size: 12px;
         color: #6b7280;
         margin: 0 0 8px 0;
       }
-      .toc a{ color:#111827; }
-      .toc ul{ margin: 0; padding-left: 16px; }
-      .toc li{ margin: 6px 0; font-size: 13px; }
-      .toc .toc-h3{ margin-left: 10px; }
+      .toc a {
+        color: #111827;
+      }
+      .toc ul {
+        margin: 0;
+        padding-left: 16px;
+      }
+      .toc li {
+        margin: 6px 0;
+        font-size: 13px;
+      }
+      .toc .toc-h3 {
+        margin-left: 10px;
+      }
 
       /* ===== Mobile ===== */
       @media (max-width: 900px) {
-        .layout { flex-direction: column; }
+        .layout {
+          flex-direction: column;
+        }
 
-        .sidebar { display: none; }
-        .topbar { display: flex; }
+        .sidebar {
+          display: none;
+        }
+        .topbar {
+          display: flex;
+        }
 
-        .content { padding: 16px; max-width: none; }
+        .content {
+          padding: 16px;
+          max-width: none;
+        }
 
         /* モバイルは目次を上に出す（折りたたみ） */
-        .page-grid{
+        .page-grid {
           grid-template-columns: 1fr;
         }
-        .toc{
+        .toc {
           position: relative;
           top: auto;
           max-height: none;
@@ -205,24 +280,16 @@
 
       <main class="content">
         {% if page.title %}
-          <h1 class="page-title">{{ page.title }}</h1>
-        {% endif %}
-
-        {% if page.thumbnail_url %}
-          <div class="thumb-wrap">
-            <img
-              class="thumb"
-              src="{{ page.thumbnail_url }}"
-              alt="{{ page.thumbnail_alt | default: page.title }}"
-            />
-          </div>
+        <h1 class="page-title">{{ page.title }}</h1>
+        {% endif %} {% if page.thumbnail_url %}
+        <div class="thumb-wrap">
+          <img class="thumb" src="{{ page.thumbnail_url }}" alt="{{ page.thumbnail_alt | default: page.title }}" />
+        </div>
         {% endif %}
 
         <!-- 本文 + 目次 -->
         <div class="page-grid">
-          <article id="page-body">
-            {{ content }}
-          </article>
+          <article id="page-body">{{ content }}</article>
 
           <!-- 目次（ページ側で toc: false にすると非表示） -->
           {% if page.toc != false %}
@@ -245,8 +312,12 @@
         const body = document.getElementById("page-body");
         if (!toc || !nav || !body) return;
 
-        // 対象の見出しレベル（大項目だけにしたいなら h2 のみにする）
-        // 例: const headings = body.querySelectorAll("h2");
+        // モバイルでは目次を強制的に開く（環境差の保険）
+        const details = toc.querySelector("details");
+        if (details && window.matchMedia("(max-width: 900px)").matches) {
+          details.open = true;
+        }
+
         const headings = body.querySelectorAll("h2, h3");
         if (!headings.length) {
           toc.style.display = "none";
@@ -256,10 +327,8 @@
         const ul = document.createElement("ul");
 
         headings.forEach((h) => {
-          // 目次に表示したくない見出し（任意）：data-toc="false" を付けたら除外
           if (h.getAttribute("data-toc") === "false") return;
 
-          // IDがなければ作る（日本語見出しでもOKな形にスラッグ化）
           if (!h.id) h.id = slugify(h.textContent);
 
           const li = document.createElement("li");
@@ -269,12 +338,11 @@
           a.href = "#" + h.id;
           a.textContent = h.textContent;
 
-          // クリック時に少し上に余白を持たせてスクロール
           a.addEventListener("click", (e) => {
             e.preventDefault();
             const target = document.getElementById(h.id);
             if (!target) return;
-            const y = target.getBoundingClientRect().top + window.pageYOffset - 56; // topbar分
+            const y = target.getBoundingClientRect().top + window.pageYOffset - 56;
             window.scrollTo({ top: y, behavior: "smooth" });
             history.replaceState(null, "", "#" + h.id);
           });
@@ -290,15 +358,12 @@
             text
               .trim()
               .toLowerCase()
-              // 記号を削る
-              .replace(/[^\p{L}\p{N}\s-]/gu, "")
-              // 空白を -
+              // Safari互換：Unicode property escapes を使わない
+              .replace(/[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~]/g, "")
               .replace(/\s+/g, "-")
-              // 連続 - を1つに
               .replace(/-+/g, "-")
-              // 先頭末尾 -
-              .replace(/^-|-$/g, "")
-          ) || "section";
+              .replace(/^-|-$/g, "") || "section"
+          );
         }
       })();
     </script>
