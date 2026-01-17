@@ -71,7 +71,7 @@ players_min: 数値
 players_max: 数値
 time_min: 分
 time_max: 分
-weight: light | medium | heavy
+weight: light | medium | heavy（任意。未指定の場合は time_max から自動判定）
 age: 対象年齢
 tags:
   - ジャンル

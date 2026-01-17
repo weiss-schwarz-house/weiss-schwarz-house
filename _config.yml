@@ -1,2 +1,16 @@
 title: ヴァイスシュヴァルツの館
 markdown: kramdown
+
+# プレイ時間（time_max）から重量を自動判定する閾値
+# - light: 〜 light_max 分
+# - medium: 〜 medium_max 分
+# - heavy: medium_max 超
+weight_thresholds:
+	light_max: 30
+	medium_max: 90
+
+# 一覧表示用の重量ラベル（任意）
+weight_labels:
+	light: "軽量"
+	medium: "中量級"
+	heavy: "重量級"

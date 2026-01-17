@@ -29,8 +29,35 @@ layout: default
         <div class="game-table-meta">
           {% if game.players_min %}👥 {{ game.players_min }}{% if game.players_max != game.players_min %} - {{
           game.players_max }}{% endif %}人{% endif %} {% if game.time_min %} | ⏱ {{ game.time_min }}{% if game.time_max
-          != game.time_min %} - {{ game.time_max }}{% endif %}分{% endif %} {% if game.weight %} | ⚖ {{ game.weight }}{%
-          endif %}
+          != game.time_min %} - {{ game.time_max }}{% endif %}分{% endif %}
+
+          {% assign weight_key = game.weight %}
+          {% if weight_key == nil or weight_key == "" %}
+            {% assign tmax = game.time_max | default: game.time_min %}
+            {% assign light_max = site.weight_thresholds.light_max | default: 30 %}
+            {% assign medium_max = site.weight_thresholds.medium_max | default: 90 %}
+            {% if tmax %}
+              {% if tmax <= light_max %}
+                {% assign weight_key = "light" %}
+              {% elsif tmax <= medium_max %}
+                {% assign weight_key = "medium" %}
+              {% else %}
+                {% assign weight_key = "heavy" %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+
+          {% assign weight_label = nil %}
+          {% if weight_key == "light" %}
+            {% assign weight_label = site.weight_labels.light | default: "軽量" %}
+          {% elsif weight_key == "medium" %}
+            {% assign weight_label = site.weight_labels.medium | default: "中量級" %}
+          {% elsif weight_key == "heavy" %}
+            {% assign weight_label = site.weight_labels.heavy | default: "重量級" %}
+          {% elsif weight_key == "軽量" or weight_key == "中量級" or weight_key == "重量級" %}
+            {% assign weight_label = weight_key %}
+          {% endif %}
+          {% if weight_label %} | ⚖ {{ weight_label }}{% endif %}
         </div>
         <div class="game-tags">{% for tag in game.tags %}<span class="game-tag">{{ tag }}</span>{% endfor %}</div>
       </td>
