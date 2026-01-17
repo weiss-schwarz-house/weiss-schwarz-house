@@ -14,3 +14,6 @@ weight_labels:
   light: "軽量"
   medium: "中量級"
   heavy: "重量級"
+  
+# 新着表示の判定日数（単位：日）
+new_days: 30
