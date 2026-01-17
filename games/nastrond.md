@@ -1,4 +1,5 @@
 ---
+date: 2026-01-18
 layout: default
 title: Nastrond（ナーストレンド）
 toc: true
