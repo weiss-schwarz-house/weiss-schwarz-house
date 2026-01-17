@@ -67,10 +67,10 @@
 ```yaml
 layout: default
 title: ゲーム名
-players_min: 数値
-players_max: 数値
-time_min: 分
-time_max: 分
+players_min: 数値（必須）
+players_max: 数値（必須）
+time_min: 分（必須）
+time_max: 分（必須）
 weight: light | medium | heavy（任意。未指定の場合は time_max から自動判定）
 age: 対象年齢
 tags:

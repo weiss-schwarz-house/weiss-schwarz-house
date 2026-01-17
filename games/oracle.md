@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ORACLE（オラクル）
+title: Oracle（オラクル）
 toc: true
 players_min: 3
 players_max: 6
