@@ -165,13 +165,19 @@
       .game-table-img {
         width: 110px;
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .game-table-img img {
         width: 90px;
         height: 90px;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 6px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+        background: #f3f4f6;
+        padding: 6px;
+        display: block;
       }
       .game-table-info h3 {
         margin: 0 0 6px 0;
