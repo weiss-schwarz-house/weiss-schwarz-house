@@ -1,4 +1,5 @@
 ---
+date: 2026-01-17
 layout: default
 title: Sirius is the Culprit (犯人はシリウス)
 toc: true
