@@ -9,28 +9,7 @@
     >
   </div>
 
-  <div class="nav-section">
-    <div class="nav-section-title">Games</div>
-    <!-- ゲームの全一覧は表示しない。ゲーム一覧ページへのリンクと最新5件のみ表示 -->
-    <a href="{{ '/games/' | relative_url }}" class="">すべてのゲームを見る</a>
-
-    {% assign games_pages = site.pages | where_exp: "p", "p.url contains '/games/'" | where_exp: "p", "p.url != '/games/'" %}
-    {% assign recent_by_date = games_pages | sort: 'date' | reverse %}
-    {% if recent_by_date.size == 0 %}
-      <!-- タイトル順でフォールバック -->
-      {% assign recent_by_date = games_pages | sort: 'title' %}
-    {% endif %}
-    {% assign recent = recent_by_date | slice: 0,5 %}
-    {% if recent.size > 0 %}
-      <div class="recent-games">
-        {% for g in recent %}
-          <a href="{{ g.url | relative_url }}" class="{% if page.url == g.url %}active{% endif %}">{{ g.title }}</a>
-        {% endfor %}
-      </div>
-    {% else %}
-      <span style="color: #6b7280">（ゲームページなし）</span>
-    {% endif %}
-  </div>
+  <!-- Games セクションは表示しない（ゲーム一覧は上のメニューから遷移） -->
 
   <div class="nav-section">
     <div class="nav-section-title">Lists</div>
