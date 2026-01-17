@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VENUS VERSUS -ヴィーナスヴァーサス-
+title: Venus Versus (ヴィーナス バーサス)
 toc: true
 players_min: 2
 players_max: 4

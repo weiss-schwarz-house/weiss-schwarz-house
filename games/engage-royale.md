@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ENGAGE ROYALE -エンゲージロワイアル-
+title: Engage Royale (エンゲージ ロワイヤル)
 toc: true
 players_min: 2
 players_max: 4
