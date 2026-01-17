@@ -126,12 +126,22 @@
       /* ===== 詳細ページ用サムネイル ===== */
       .thumb-wrap {
         margin-bottom: 24px;
+        width: 100%;
+        max-width: 520px;
+        aspect-ratio: 4 / 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
       }
       .thumb {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
       }
 
       /* ===== ゲーム一覧リスト（BGG風） ===== */
