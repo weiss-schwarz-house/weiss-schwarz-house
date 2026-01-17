@@ -106,11 +106,14 @@ def main():
 
             first = git_date(rel, first=True)
             last = git_date(rel, first=False)
+            print(f"DEBUG: {rel} first={first} last={last}", flush=True)
             if not first and not last:
+                print(f"DEBUG: no git dates for {rel}", flush=True)
                 continue
 
             src = read_file(path)
             new_text, changed = update_front_matter(src, first, last)
+            print(f"DEBUG: {rel} changed={changed}", flush=True)
             if changed and new_text != src:
                 write_file(path, new_text)
                 changed_files.append(rel)

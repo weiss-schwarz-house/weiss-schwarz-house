@@ -1,4 +1,5 @@
 ---
+date: 2026-01-17
 layout: default
 title: Venus Versus (ヴィーナス バーサス)
 toc: true

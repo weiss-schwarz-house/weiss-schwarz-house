@@ -1,4 +1,5 @@
 ---
+date: 2025-12-31
 layout: default
 title: Sweet Lands（スイーツランド）
 toc: true
@@ -17,6 +18,7 @@ rulebook_url: "https://www.dropbox.com/scl/fi/wyv1vz49fs3nepay6stxc/SweetLands_-
 thumbnail_url: "https://www.dropbox.com/scl/fi/ayv6x2db3dv99sks31l2h/pic8329173.webp?rlkey=38h3m9pxjcglwjw8jk3kzy2tv&raw=1"
 thumbnail_alt: "Sweet Lands（スイーツランド）"
 bgg_url: "https://boardgamegeek.com/boardgame/425445/sweet-lands"
+updated: 2026-01-17
 ---
 
 ## ルールブック

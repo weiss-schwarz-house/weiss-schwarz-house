@@ -1,4 +1,5 @@
 ---
+date: 2026-01-17
 layout: default
 title: Himesama Battle (姫様バトル)
 toc: true
