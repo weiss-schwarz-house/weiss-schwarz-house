@@ -298,6 +298,13 @@
       <main class="content">
         {% if page.title %}
         <h1 class="page-title">{{ page.title }}</h1>
+
+        {% comment %} Published / Updated dates (prefer updated) {% endcomment %}
+        {% assign shown_date = page.updated | default: page.date %}
+        {% if shown_date %}
+        <div class="page-date">{{ shown_date | date: "%Y-%m-%d" }}{% if page.updated %}（更新）{% else %}（公開）{% endif %}</div>
+        {% endif %}
+
         {% endif %} {% if page.thumbnail_url %}
         <div class="thumb-wrap">
           <img class="thumb" src="{{ page.thumbnail_url }}" alt="{{ page.thumbnail_alt | default: page.title }}" />

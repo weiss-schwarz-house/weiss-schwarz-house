@@ -71,9 +71,13 @@ players_min: 数値（必須）
 players_max: 数値（必須）
 time_min: 分（必須）
 time_max: 分（必須）
+date: YYYY-MM-DD（任意。トップの「新着表示」を安定させるなら推奨）
+updated: YYYY-MM-DD（任意。ページを更新した日を入れると更新日表示・NEW判定に利用されます）
 weight: light | medium | heavy（任意。未指定の場合は time_max から自動判定）
 age: 対象年齢
 tags:
+
+実行スクリプト: リポジトリルートで `python3 scripts/update_game_dates.py` を実行すると、`games/*.md` の `date` / `updated` を git 履歴から補完します。CI 自動化は `.github/workflows/update_dates.yml` を追加済み。
   - ジャンル
   - メカニクス
 rulebook_url: 外部PDFリンク

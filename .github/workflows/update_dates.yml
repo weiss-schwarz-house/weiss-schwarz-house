@@ -1,0 +1,41 @@
+name: Update game dates
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'games/**'
+  workflow_dispatch: {}
+
+jobs:
+  update-dates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run update script
+        run: |
+          python3 scripts/update_game_dates.py
+
+      - name: Push changes
+        if: ${{ steps.run_update.outcome == 'success' || true }}
+        run: |
+          git status --porcelain
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add games/*.md
+            git commit -m "chore: update game dates by action" || echo "no commit"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
