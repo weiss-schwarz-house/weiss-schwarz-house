@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 姫様バトル
+title: Himesama Battle (姫様バトル)
 toc: true
 players_min: 2
 players_max: 5
