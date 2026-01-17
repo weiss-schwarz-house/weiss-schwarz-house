@@ -22,7 +22,7 @@ title: 時間別
 </div>
 {% endif %}
 
-## 軽量（〜{{ light_max }}分）
+## 軽量級
 
 {% assign found = 0 %}
 {% for g in games_pages %}
@@ -41,7 +41,7 @@ title: 時間別
 
 ---
 
-## 中量級（{{ light_max | plus: 1 }}〜{{ medium_max }}分）
+## 中量級
 
 {% assign found = 0 %}
 {% for g in games_pages %}
@@ -60,7 +60,7 @@ title: 時間別
 
 ---
 
-## 重量級（{{ medium_max | plus: 1 }}分〜）
+## 重量級
 
 {% assign found = 0 %}
 {% for g in games_pages %}
