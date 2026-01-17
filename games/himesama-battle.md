@@ -7,8 +7,8 @@ players_max: 5
 time_min: 5
 time_max: 15
 age: 10+
-rulebook_url: "https://docs.google.com/document/d/1abaz_CZtKxaB7cs4NboqXkH4hGdRKcG92aI1XjtauD4/edit?usp=sharing"
-thumbnail_url: "https://img.gamemarket.jp/20250321_110339_%E5%86%85%E5%AE%B9%E7%89%A9.jpg"
+rulebook_url: "https://www.dropbox.com/scl/fi/vprmc9622nlumg7uwgw4e/.pdf?rlkey=lcicd0j5nd5p2vi5olj0e8hxy&st=bk0evz3h&dl=0"
+thumbnail_url: "https://www.dropbox.com/scl/fi/6db2yn07mrnm3tojtlk3u/.png?rlkey=mm42hjh7jku7imts265ptb9vq&st=tngw62n3&raw=1"
 thumbnail_alt: "姫様バトル"
 source_url: "https://gamemarket.jp/game/185025"
 ---
