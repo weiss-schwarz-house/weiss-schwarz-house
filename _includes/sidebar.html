@@ -14,7 +14,7 @@
     <!-- ゲームの全一覧は表示しない。ゲーム一覧ページへのリンクと最新5件のみ表示 -->
     <a href="{{ '/games/' | relative_url }}" class="">すべてのゲームを見る</a>
 
-    {% assign games_pages = site.pages | where_exp: "p", "p.url contains '/games/' and p.url != '/games/'" %}
+    {% assign games_pages = site.pages | where_exp: "p", "p.url contains '/games/'" | where_exp: "p", "p.url != '/games/'" %}
     {% assign recent_by_date = games_pages | sort: 'date' | reverse %}
     {% if recent_by_date.size == 0 %}
       <!-- タイトル順でフォールバック -->
