@@ -20,7 +20,7 @@ official_url: "http://yuofc2.blog72.fc2.com/blog-entry-374.html"
 ## ルール
 
  ルール（説明書）: [説明書ページ1]({{ page.rulebook_url }}) ｜ [説明書ページ2](https://www.dropbox.com/scl/fi/qvucv2n6i7xali0p4st7e/2.jpg?rlkey=130qdu7woiv7a5xc78pok0xvw&st=ut1axcn7&raw=1)
-  - [説明書ページ2](https://www.dropbox.com/scl/fi/qvucv2n6i7xali0p4st7e/2.jpg?rlkey=130qdu7woiv7a5xc78pok0xvw&st=ut1axcn7&raw=1)
+
 - 公式ページ: [でまかせドラゴン — 制作者ブログ]({{ page.official_url }})
 
 ## 概要メモ
