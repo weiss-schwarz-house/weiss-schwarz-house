@@ -17,6 +17,7 @@ official_url: "https://www.littleeights.com/products_game/products_dayforlily.ht
 support_url: "https://www.littleeights.com/support.html"
 thumbnail_url: "https://www.littleeights.com/pict/products_dayforlily/dayforlily-main.png"
 thumbnail_alt: "Day for Lily パッケージ"
+updated: 2026-01-18
 ---
 
 ## ルール

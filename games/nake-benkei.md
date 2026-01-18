@@ -15,6 +15,7 @@ rulebook_url: "https://www.dropbox.com/scl/fi/hv9ruxox72i9skcg6p8h6/20251028_223
 thumbnail_url: "https://www.dropbox.com/scl/fi/2l8mwblu0rwpa565xg0ff/c49e14b2-67b8-4ad0-bffa-2669d70fd92a.png?rlkey=2zfqbvb9k2lfodj3d51dqjc42&st=16j2omci&raw=1"
 thumbnail_alt: "泣けベンケイ パッケージ"
 source_url: "https://gamemarket.jp/game/186055"
+updated: 2026-01-18
 ---
 
 ## ルール

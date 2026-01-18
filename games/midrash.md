@@ -4,8 +4,8 @@ layout: default
 title: Midrash（ミドラーシュ）
 toc: true
 tags:
-	- カードゲーム
-	- 対戦
+  - カードゲーム
+  - 対戦
 players_min: 1
 players_max: 4
 time_min: 20
