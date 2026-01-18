@@ -123,7 +123,19 @@ document.addEventListener('DOMContentLoaded', function(){
       if(bboxH > 0.7 && bboxW < 0.5) mode = 'contain';
       if((bboxW*bboxH) < 0.15) mode = 'contain';
       callback({mode:mode, focusX: Math.max(0,Math.min(100,Math.round(cx))), focusY: Math.max(0,Math.min(100,Math.round(cy)))});
-    }catch(e){ callback(null); }
+    }catch(e){
+      // If canvas is tainted (cross-origin) or an error occurs, fallback to simple ratio check
+      try{
+        var iw2 = img.naturalWidth || img.width;
+        var ih2 = img.naturalHeight || img.height;
+        if(iw2 && ih2){
+          var ratio = ih2 / iw2;
+          if(ratio > 1.15) return callback({mode:'contain', focusX:50, focusY:30});
+          return callback({mode:'cover', focusX:50, focusY:8});
+        }
+      }catch(e2){}
+      callback(null);
+    }
   }
 
   document.querySelectorAll('.thumb').forEach(function(div){
