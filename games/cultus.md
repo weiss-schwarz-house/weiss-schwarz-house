@@ -4,9 +4,9 @@ layout: default
 title: Cultus（カタルス）
 toc: true
 tags:
-	- ワーカープレイスメント
-	- タイル配置
-	- カードゲーム
+  - ワーカープレイスメント
+  - タイル配置
+  - カードゲーム
 players_min: 1
 players_max: 4
 time_min: 20
