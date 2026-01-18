@@ -9,7 +9,7 @@ time_min: 60
 time_max: 120
 age: 7+
 tags:
-  - 陣取り
+  - エリアマジョリティ
   - カードゲーム
   - 多種族
 rulebook_url: "https://www.littleeights.com/products_game/PDF/DayforLily%E8%AA%AC%E6%98%8E%E6%9B%B8.pdf"
@@ -30,7 +30,7 @@ thumbnail_alt: "Day for Lily パッケージ"
 
 ## 概要メモ
 
-- タイプ: 多種族対抗 × 陣取り
+- タイプ: 多種族対抗 × エリアマジョリティ（陣取り）
 - プレイ人数: 3〜5人
 - プレイ時間: 60〜120分
 - 対象年齢: 7歳以上

@@ -16,7 +16,7 @@ source_url: "https://gamemarket.jp/game/185025"
 
 ## ルール
 
-- [説明書（Googleドキュメント）]({{ page.rulebook_url }})
+- [説明書]({{ page.rulebook_url }})
 
 ---
 
