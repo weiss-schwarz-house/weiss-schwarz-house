@@ -11,7 +11,7 @@ age: 10+
 tags:
   - カードゲーム
   - 対戦
-rulebook_url: "https://www.dropbox.com/scl/fi/sbcd0qiyx2u31mwoxynky/sinabyss_ver.2.0_.pdf?rlkey=7cow9jphrqvsdywrofqlypb36&st=5rvmhjiq&dl=0"
+rulebook_url: "https://www.dropbox.com/scl/fi/sbcd0qiyx2u31mwoxynky/sinabyss_ver.2.0_.pdf?rlkey=7cow9jphrqvsdywrofqlypb36&st=5rvmhjiq&raw=1"
 source_url: "https://gamemarket.jp/game/187140"
 thumbnail_url: "https://www.dropbox.com/scl/fi/sydecx0zbmf8ex9cvyjnx/.png?rlkey=gmsin972ntady92e4s9tn71tl&st=olb7naj5&raw=1"
 thumbnail_alt: "sinabyss サムネイル"

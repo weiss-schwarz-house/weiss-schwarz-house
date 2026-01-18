@@ -6,7 +6,7 @@ toc: true
 tags:
   - カードゲーム
   - 対戦
-rulebook_url: "https://www.dropbox.com/scl/fi/4npxwpmkrrg1u5etlwpbi/v1_0_0.pdf?rlkey=17cy7y3k5i0q8n03k0ergbli6&st=vhhgehdx&dl=0"
+rulebook_url: "https://www.dropbox.com/scl/fi/4npxwpmkrrg1u5etlwpbi/v1_0_0.pdf?rlkey=17cy7y3k5i0q8n03k0ergbli6&st=vhhgehdx&raw=1"
 source_url: "https://susabigames.com/ep"
 official_url: "https://susabigames.wixsite.com/susabigames/evilpact"
 thumbnail_url: "https://www.dropbox.com/scl/fi/clc9h16byfh7ydqhw7r9w/evilpact.png?rlkey=90wrrsjah13nbciv2v5hk5jp6&st=0txldx7t&raw=1"
