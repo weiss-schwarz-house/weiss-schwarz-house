@@ -44,7 +44,7 @@ qa:
 
 ## Q&A
 
-{% include qa-table.html %}
+{% include qa-details.html %}
 
 ---
 

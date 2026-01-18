@@ -1,0 +1,31 @@
+<style>
+.qa-details { margin: 1em 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif; }
+.qa-details details { background: #ffffff; border: 1px solid #e6e9ed; border-radius: 15px; overflow: hidden; margin-bottom: 0.5ex; }
+.qa-details summary { display: flex; align-items: center; padding: 10px 15px; cursor: pointer; background: #f5f7fa; position: relative; }
+.qa-details .qa-label { display: inline-block; color: #2daffe; margin-right: 12px; text-align: center; line-height: 25px; font-size: 20px; font-weight: bold; }
+.qa-details .qa-question { color: #000000; font-weight: bold; padding-right: 10%; }
+.qa-details .qa-toggle { margin-right: 10px; color: #5d6d7e; position: absolute; left: 90%; font-size: 25px; }
+.qa-details .qa-body { padding: 10px 15px; }
+.qa-details .qa-a { color: #333333; }
+.qa-toc-heading { position: absolute !important; left: -10000px !important; top: auto !important; width: 1px !important; height: 1px !important; overflow: hidden !important; }
+</style>
+
+{% assign items = include.qa | default: page.qa %}
+{% if items and items.size > 0 %}
+  <div class="qa-details">
+  {% for pair in items %}
+### {{ pair.q }}
+{: .qa-toc-heading }
+    <details open>
+      <summary>
+        <span class="qa-label">Ｑ</span>
+        <span class="qa-question">{{ pair.q }}</span>
+        <span class="qa-toggle">+</span>
+      </summary>
+      <div class="qa-body">
+        <div class="qa-a">{{ pair.a | markdownify }}</div>
+      </div>
+    </details>
+  {% endfor %}
+  </div>
+{% endif %}

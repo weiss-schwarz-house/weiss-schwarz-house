@@ -41,9 +41,7 @@ layout: default
       <td class="game-table-info">
         <h3><a href="{{ game.url | relative_url }}">{{ game.title }}</a></h3>
         <div class="game-table-meta">
-          {% if game.players_min %}👥 {{ game.players_min }}{% if game.players_max != game.players_min %} - {{
-          game.players_max }}{% endif %}人{% endif %} {% if game.time_min %} | ⏱ {{ game.time_min }}{% if game.time_max
-          != game.time_min %} - {{ game.time_max }}{% endif %}分{% endif %}
+          {% if game.players_min %}👥 {{ game.players_min }}{% if game.players_max != game.players_min %} - {{ game.players_max }}{% endif %}人{% endif %} {% if game.time_min %} | ⏱ {{ game.time_min }}{% if game.time_max != game.time_min %} - {{ game.time_max }}{% endif %}分{% endif %}
 
           {% assign weight_key = game.weight %}
           {% if weight_key == nil or weight_key == "" %}
