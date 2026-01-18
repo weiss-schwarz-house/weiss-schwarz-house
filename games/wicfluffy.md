@@ -12,9 +12,9 @@ tags:
   - カードゲーム
   - 対戦
   - TCGライク
-rulebook_url: "https://www.dropbox.com/scl/fi/npfkl30zw9pc5zzm9tp9p/20250516_021853_WicFluffy_Rules_Japanese.pdf?rlkey=9tdzdj042df3iy4mt7gsim9z1&st=y3bs78rl&dl=0"
+rulebook_url: "https://www.dropbox.com/scl/fi/npfkl30zw9pc5zzm9tp9p/20250516_021853_WicFluffy_Rules_Japanese.pdf?rlkey=9tdzdj042df3iy4mt7gsim9z1&st=y3bs78rl&raw=1"
 source_url: "https://gamemarket.jp/game/185055"
-thumbnail_url: "https://www.dropbox.com/scl/fi/tozk0lcbjok2m4i9ryglj/WicFluffy.png?rlkey=1csustul97xge138fk5ykqkc2&st=yy4u8bgf&raw=1"
+thumbnail_url: "https://www.dropbox.com/scl/fi/92j67ofh2a62d9y4j6713/WicFluffy.png?rlkey=cgqq5303wkyw4ip2kbtq6zaoi&st=g6k85y48&raw=1"
 thumbnail_alt: "WicFluffy（ウィック・フラフィー） サムネイル"
 # weight: omitted -> auto-derived from time_max
 ---
