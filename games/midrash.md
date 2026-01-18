@@ -48,6 +48,4 @@ qa:
 
 ---
 
-- 参照元： [公式サイト]({{ page.source_url } })
-
 - 参照元： [公式サイト]({{ page.source_url }})
