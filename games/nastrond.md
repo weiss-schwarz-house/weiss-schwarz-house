@@ -9,7 +9,7 @@ time_min: 45
 time_max: 60
 age: 14+
 tags:
-  - ダイスゲーム
+  - ダイスロール
   - コンボ
 rulebook_url: "http://ash.jp/~md/game/144/144.htm"
 source_url: "https://gamemarket.jp/game/180873"

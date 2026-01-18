@@ -1,0 +1,62 @@
+---
+# Canonical tags data: key = katakana label, jp = 日本語（内部データ）
+tags:
+  - key: ワーカープレイスメント
+    jp: ワーカー配置
+  - key: デッキビルディング
+    jp: デッキ構築
+  - key: ヒドゥンロール
+    jp: 正体隠匿
+  - key: アクションポイントシステム
+    jp: アクションポイント制
+  - key: エリアマジョリティ
+    jp: 陣取り
+  - key: ハンドマネージメント
+    jp: 手札管理
+  - key: バリアブルボード
+    jp: 可変ボード
+  - key: バランスゲーム
+    jp: バランスゲーム
+  - key: バッティング
+    jp: バッティング
+  - key: タワーディフェンス
+    jp: タワーディフェンス
+  - key: ドラフト
+    jp: ドラフト
+  - key: エンジンビルド
+    jp: エンジン構築
+  - key: セットコレクション
+    jp: セット収集
+  - key: タイル配置
+    jp: タイル配置
+  - key: ダイスロール
+    jp: ダイスロール
+  - key: 協力ゲーム
+    jp: 協力ゲーム
+  - key: レース
+    jp: レース
+  - key: ブラフ
+    jp: 駆け引き
+  - key: カードゲーム
+    jp: カードゲーム
+  - key: 対戦
+    jp: 対戦
+  - key: TCGライク
+    jp: TCGライク
+  - key: ユーロゲーム
+    jp: ユーロゲーム
+  - key: 多種族
+    jp: 多種族
+  - key: 推理
+    jp: 推理
+  - key: パーティ構築
+    jp: パーティ構築
+  - key: パーティゲーム
+    jp: パーティゲーム
+  - key: 追放
+    jp: 追放
+  - key: コンボ
+    jp: コンボ
+
+# Note: Front matter `tags` should use the `key` (katakana label).
+---

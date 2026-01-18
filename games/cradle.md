@@ -9,7 +9,7 @@ time_min: 15
 time_max: 30
 age: 15+
 tags:
-  - デッキ構築
+  - デッキビルディング
   - カードゲーム
 rulebook_url: "https://ritsessolwide.wixsite.com/cradletcg/play"
 source_url: "https://gamemarket.jp/game/125753"
