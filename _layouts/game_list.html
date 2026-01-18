@@ -9,10 +9,8 @@ layout: default
 .game-table { width: 100%; table-layout: fixed; }
 .game-table-img { padding: 8px; vertical-align: top; width: 220px; }
 .game-table-info { vertical-align: top; }
-.thumb { width: 220px; aspect-ratio: 4 / 3; overflow: hidden; background: #f3f3f3; border-radius: 4px; background-size: cover; background-position: center 5px; background-repeat: no-repeat; }
-.thumb--shrink { background-size: 80% auto; }
+.thumb { width: 220px; aspect-ratio: 4 / 3; overflow: hidden; background: #f3f3f3; border-radius: 4px; background-size: contain; background-position: center; background-repeat: no-repeat; }
 .thumb--16-9 { aspect-ratio: 16 / 9; }
-.thumb--contain { background-size: contain; background-repeat: no-repeat; background-position: center; background-color: #fff; }
 @media (max-width: 700px) {
   .game-table-img { width: 120px; }
   .thumb { width: 120px; }
@@ -33,10 +31,8 @@ layout: default
       <td class="game-table-img">
         {% if game.thumbnail_url %}
         <a href="{{ game.url | relative_url }}">
-          {% assign pos = game.thumbnail_focus | default: 'center 5px' %}
-          <div class="thumb{% if game.thumbnail_aspect == '16:9' %} thumb--16-9{% endif %}" style="background-image: url('{{ game.thumbnail_url }}'); background-position: {{ pos }};" aria-label="{{ game.title }}">
-            <img class="thumb__measurer" src="{{ game.thumbnail_url }}" alt="" aria-hidden="true" style="display:none" />
-          </div>
+          {% assign pos = game.thumbnail_focus | default: 'center' %}
+          <div class="thumb{% if game.thumbnail_aspect == '16:9' %} thumb--16-9{% endif %}" style="background-image: url('{{ game.thumbnail_url }}'); background-position: {{ pos }};" aria-label="{{ game.title }}"></div>
         </a>
         {% else %}
         <span style="color: #ccc; font-size: 12px">No Image</span>
