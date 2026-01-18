@@ -3,6 +3,14 @@ date: 2026-01-18
 layout: default
 title: Midrash（ミドラーシュ）
 toc: true
+tags:
+	- カードゲーム
+	- 対戦
+players_min: 1
+players_max: 4
+time_min: 20
+time_max: 120
+age: 12+
 rulebook_url: "https://www.dropbox.com/scl/fi/wony2tzhho70f93sfmul0/rule202305.pdf?rlkey=kn6wtoq4wenoccxna4jcywiy2&st=1p1xv249&raw=1"
 thumbnail_url: "https://www.dropbox.com/scl/fi/iw9nouzk3tgt62i63f42l/midrash_top.jpg?rlkey=vpzp98gntk1es2n4spun4fvic&st=wcest37k&raw=1"
 thumbnail_alt: "Midrash"

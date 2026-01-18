@@ -3,6 +3,10 @@ date: 2026-01-17
 layout: default
 title: Oracle（オラクル）
 toc: true
+tags:
+	- カードゲーム
+	- ブラフ
+	- 対戦
 players_min: 3
 players_max: 6
 time_min: 20
