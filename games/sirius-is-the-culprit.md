@@ -17,6 +17,11 @@ source_url: "https://www.littleeights.com/products_game/products_hanninhasirius.
 thumbnail_url: "https://www.littleeights.com/pict/products_hanninhasirius/hanninhasirius-main.jpg"
 thumbnail_alt: "犯人はシリウス パッケージ"
 official_url: "https://www.littleeights.com/products_game/products_hanninhasirius.html"
+qa:
+  - q: "「すり替え」の効果を使用したとき、罪状カードを２枚以上持っているプレイヤーがいる場合、どうしますか？"
+    a: "非公開の罪状カードが交換対象となります。"
+  - q: "手札カードは効果を使わずに捨てることはできますか？"
+    a: "効果を使わずに捨てることはできません。"
 ---
 
 ## ルール
@@ -38,27 +43,9 @@ official_url: "https://www.littleeights.com/products_game/products_hanninhasiriu
 （必要なら本文に要点・注意点・FAQ抜粋を追記します）
 ---
 
-## FAQ（抜粋）
+## Q&A
 
-> **Q:** 「すり替え」の効果を使用したとき、罪状カードを２枚以上持っているプレイヤーがいる場合、どうしますか？
->
-> **A:** 非公開の罪状カードが交換対象となります。
-
-> **Q:** 手札カードは効果を使わずに捨てることはできますか？
->
-> **A:** 効果を使わずに捨てることはできません。
+{% include qa-details.html %}
 
 ---
-
-## FAQ（抜粋）
-
-### 手札カードについて
-
-Q: 「すり替え」の効果を使用したとき、罪状カードを２枚以上持っているプレイヤーがいる場合、どうしますか？
-
-A: 非公開の罪状カードが交換対象となります。
-
-Q: 手札カードは効果を使わずに捨てることはできますか？
-
-A: 効果を使わずに捨てることはできません。
 

@@ -17,37 +17,13 @@ official_url: "https://www.littleeights.com/products_game/products_dayforlily.ht
 support_url: "https://www.littleeights.com/support.html"
 thumbnail_url: "https://www.littleeights.com/pict/products_dayforlily/dayforlily-main.png"
 thumbnail_alt: "Day for Lily パッケージ"
-updated: 2026-01-18
----
+## Q&A
 
-## ルール
-
-- ルールは公式の説明書（PDF）を参照してください。
-
-- [Day for Lily 説明書（PDF）]({{ page.rulebook_url }})
-
-- 公式ページ: [Day for Lily — littleeights]({{ page.official_url }})
-- サポート（FAQ）: [littleeights サポートページ]({{ page.support_url }})
-
-## 概要メモ
-
-- タイプ: 多種族対抗 × エリアマジョリティ（陣取り）
-- プレイ人数: 3〜5人
-- プレイ時間: 60〜120分
-- 対象年齢: 7歳以上
+{% include qa-details.html %}
 
 ---
 
-## FAQ（抜粋）
-
-### プレイヤースキルについて
-
-> **Q:** 人/ドワーフ/エルフのプレイヤースキルで、「神のきまぐれ」を山札から引いた場合、どのような処理になりますか？
->
-> **A:** カードの効果で「神のきまぐれ」を引いた場合も通常時と処理は同じです。「神のきまぐれ」を山札の横に置いた後、山札からカードを1枚引き手札に加えます。
-
-> **Q:** 人/ドワーフ/エルフのスキルで「背水の陣」を場に出した時、手札が一枚も無い場合に効果は発動しますか？
->
+（追加のFAQや本文要点を反映したい場合は指示ください。抜粋以外の要約も作成します）
 > **A:** 効果は発動します。
 
 > **Q:** 自分の番で手札を全て場に出した後、人/ドワーフ/エルフのプレイヤースキルを用いて、「スパイ」を山札から引きその効果を使いました。「スパイ」の効果で引いたカードをその番に手札から追加で場に出すことはできますか？
