@@ -4,9 +4,9 @@ layout: default
 title: Oracle（オラクル）
 toc: true
 tags:
-	- カードゲーム
-	- ブラフ
-	- 対戦
+  - カードゲーム
+  - ブラフ
+  - 対戦
 players_min: 3
 players_max: 6
 time_min: 20
@@ -17,6 +17,7 @@ rulebook_url_en: "https://drive.google.com/file/d/1UYXO_TPizZu-jPDcEBcyOOA6CDkZE
 thumbnail_url: "https://www.dropbox.com/scl/fi/7hitpgeuhglbshklhltxt/ORACLE.png?rlkey=vt50ebzkhrmaoup8iqimcqx9r&st=vhrkffbd&raw=1"
 thumbnail_alt: "ORACLE（オラクル）"
 source_url: "https://gamemarket.jp/game/186159"
+updated: 2026-01-18
 ---
 
 ## ルール
