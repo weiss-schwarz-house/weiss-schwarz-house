@@ -308,7 +308,13 @@
 
         <!-- 本文 + 目次 -->
         <div class="page-grid">
-          <article id="page-body">{{ content }}</article>
+          <article id="page-body">
+            {% if page.base_set or page.expansions %}
+              {% include game-sets.html %}
+            {% endif %}
+
+            {{ content }}
+          </article>
 
           <!-- 目次（ページ側で toc: true にすると表示） -->
           {% if page.toc == true %}

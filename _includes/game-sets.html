@@ -1,0 +1,111 @@
+{% comment %} Render base set and expansions for a game page. {% endcomment %}
+
+{% if page.base_set %}
+<section class="game-base-set">
+  <h2 data-toc="true">基本セット</h2>
+  <div class="base-set">{{ page.base_set | markdownify }}</div>
+</section>
+{% elsif page.expansions %}
+<section class="game-base-set">
+  <h2 data-toc="true">基本セット</h2>
+  <!-- ページ本文がそのまま基本セットの説明として使われます -->
+</section>
+{% endif %}
+
+{% if page.expansions %}
+  {% if page.show_expansions == true %}
+  <section class="game-expansions">
+    <h2 data-toc="true">拡張セット</h2>
+    {% for exp in page.expansions %}
+      <h3 data-toc="true">{{ exp.name }}</h3>
+      <div class="exp-desc">{{ exp.description | markdownify }}</div>
+    {% endfor %}
+  </section>
+  {% else %}
+  <div class="game-expansions-collapsed">
+    <button class="show-expansions-btn">拡張セットを表示</button>
+    <div class="expansions-placeholder" data-expansions='{{ page.expansions | jsonify }}'></div>
+  </div>
+
+  <script>
+    (function () {
+      const btn = document.querySelector('.show-expansions-btn');
+      const placeholder = document.querySelector('.expansions-placeholder');
+      if (!btn || !placeholder) return;
+
+      function slugify(text) {
+        return (
+          (text || '')
+            .trim()
+            .toLowerCase()
+            .replace(/[!"#$%&'()*+,./:;<=>?@[\\\]^`{|}~]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .replace(/^-|-$/g, '') || 'section'
+        );
+      }
+
+      btn.addEventListener('click', function () {
+        try {
+          const data = JSON.parse(placeholder.dataset.expansions || '[]');
+          if (!data.length) return;
+
+          const section = document.createElement('section');
+          section.className = 'game-expansions';
+
+          const h2 = document.createElement('h2');
+          h2.textContent = '拡張セット';
+          h2.setAttribute('data-toc', 'true');
+          section.appendChild(h2);
+
+          data.forEach((exp) => {
+            const h3 = document.createElement('h3');
+            h3.textContent = exp.name || '拡張';
+            h3.setAttribute('data-toc', 'true');
+            const id = slugify((exp.name || '') + '-exp');
+            h3.id = id;
+
+            const div = document.createElement('div');
+            div.className = 'exp-desc';
+            div.innerHTML = exp.description || '';
+
+            section.appendChild(h3);
+            section.appendChild(div);
+
+            // Update TOC if exists
+            const nav = document.getElementById('toc-nav');
+            if (nav) {
+              const ul = nav.querySelector('ul') || document.createElement('ul');
+              // ensure ul is attached
+              if (!nav.querySelector('ul')) nav.appendChild(ul);
+
+              const li = document.createElement('li');
+              li.className = 'toc-h3';
+              const a = document.createElement('a');
+              a.href = '#' + id;
+              a.textContent = h3.textContent;
+              a.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.getElementById(id);
+                if (!target) return;
+                const y = target.getBoundingClientRect().top + window.pageYOffset - 56;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+                history.replaceState(null, '', '#' + id);
+              });
+              li.appendChild(a);
+              ul.appendChild(li);
+            }
+          });
+
+          // insert after placeholder
+          placeholder.parentNode.insertBefore(section, placeholder.nextSibling);
+          // hide button after expand
+          btn.style.display = 'none';
+        } catch (e) {
+          console.error('failed to render expansions', e);
+        }
+      });
+    })();
+  </script>
+  {% endif %}
+{% endif %}
