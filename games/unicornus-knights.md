@@ -6,6 +6,8 @@ english_title: Unicornus Knights
 toc: true
 players_min: 2
 players_max: 6
+time_min: 120
+time_max: 180
 tags:
   - 協力ゲーム
   - ボードゲーム

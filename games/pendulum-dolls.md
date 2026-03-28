@@ -4,6 +4,11 @@ layout: default
 title: ペンデュラム・ドールズ 新章（Pendulum Dolls）
 english_title: Pendulum Dolls
 toc: true
+toc: true
+players_min: 1
+players_max: 4
+time_min: 20
+time_max: 40
 series: Pendulum Dolls
 expansion_type: standalone
 tags:
