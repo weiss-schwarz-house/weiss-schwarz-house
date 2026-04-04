@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 layout: default
-title: Duel for Falling Cherry Blossoms: New（桜降る代に決闘を　新幕）
+title: "Duel for Falling Cherry Blossoms: New（桜降る代に決闘を　新幕）"
 toc: true
 players_min: 2
 players_max: 2
