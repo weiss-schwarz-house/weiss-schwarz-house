@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 layout: default
-title: 桜降る代に決闘を　新幕
+title: Duel for Falling Cherry Blossoms: New（桜降る代に決闘を　新幕）
 toc: true
 players_min: 2
 players_max: 2
@@ -14,8 +14,8 @@ tags:
   - デッキ構築
 rulebook_url: "https://main-bakafire.ssl-lolipop.jp/furuyoni/na/rule.html"
 source_url: "https://boardgamegeek.com/boardgame/304042/xin-mu-ying-jiang-rudai-nijue-dou-wo-ji-ben-setsut"
-thumbnail_url: "https://www.dropbox.com/scl/fi/q1egqi20agxa33k6hxq7e/.png?rlkey=ws7a5z2icdj3w5nlfnk7akcaa&st=p0vdkv0e&raw=1"
-thumbnail_alt: "新幕 桜降る代に決闘を サムネイル"
+thumbnail_url: "https://www.dropbox.com/scl/fi/dd71fwgfdc30rk71skcaw/sakura.png?rlkey=zrc04onlha6l53041mf4zlsb0&st=0s2csyre&raw=1"
+thumbnail_alt: "Duel for Falling Cherry Blossoms: New サムネイル"
 credits: "ふるよにコモンズ/BakaFire,TOKIAME"
 # weight: omitted -> auto-derived from time_max
 ---
