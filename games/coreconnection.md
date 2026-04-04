@@ -4,7 +4,7 @@ layout: default
 title: 神機共鳴コア・コネクション（CoreConnection）
 toc: true
 players_min: 2
-players_max: 2
+players_max: 4
 time_min: 30
 time_max: 60
 age: 12+
@@ -27,7 +27,7 @@ thumbnail_alt: "神機共鳴コア・コネクション サムネイル"
 
 ## 概要メモ
 
-- プレイ人数: 2人
+- プレイ人数: 2〜4人
 - プレイ時間: 30分〜
 - 対象年齢: 12歳〜
 
