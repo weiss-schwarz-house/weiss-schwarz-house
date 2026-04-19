@@ -12,9 +12,9 @@ tags:
   - ボードゲーム
   - 対戦
   - SF
-rulebook_url: "https://www.dropbox.com/scl/fi/iaew9f7spdji8d5qt397l/SETI.pdf?rlkey=ntsofgycce1h7atq9v1mamyfh&st=to6hxcvl&raw=1"
+rulebook_url: "https://www.dropbox.com/scl/fi/xkwj90qamvwyywribb239/SETI.pdf?rlkey=po559pyqvpkgo5omrp6odvzfd&st=ivjezdgk&raw=1"
 expansion_rulebook_url: "https://www.dropbox.com/scl/fi/clj2wsz60ipit7x9dtc6v/SETI.pdf?rlkey=nfj01m8yt682pway1f9910rrd&st=496n8nbd&raw=1"
-rulebook_dl_url: "https://www.dropbox.com/scl/fi/iaew9f7spdji8d5qt397l/SETI.pdf?rlkey=ntsofgycce1h7atq9v1mamyfh&st=to6hxcvl&dl=1"
+rulebook_dl_url: "https://www.dropbox.com/scl/fi/xkwj90qamvwyywribb239/SETI.pdf?rlkey=po559pyqvpkgo5omrp6odvzfd&st=ivjezdgk&dl=1"
 expansion_rulebook_dl_url: "https://www.dropbox.com/scl/fi/clj2wsz60ipit7x9dtc6v/SETI.pdf?rlkey=nfj01m8yt682pway1f9910rrd&st=496n8nbd&dl=1"
 source_url: "https://hobbyjapan.games/seti/"
 thumbnail_url: "https://www.dropbox.com/scl/fi/ffqznn0amzokvxulb1rrh/SETI.png?rlkey=5sb6vz7v0e261b3ix4ujobk2k&st=tt4a2dea&raw=1"
