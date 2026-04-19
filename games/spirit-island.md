@@ -22,7 +22,7 @@ thumbnail_alt: "スピリット・アイランド サムネイル"
 ## ルール
 
 - ルール解説: [Bodolog ルール解説（Spirit Island）]({{ page.rulebook_url }})
-- ルールブック（基本）: [ルールブック（PDF）](https://www.dropbox.com/scl/fi/q2a7cl2adsstr54f2g64p/.pdf?rlkey=8i30j0m3qj3ez25ntds7q5cva&st=h64de3vv&raw=1)
+- ルールブック（基本）: [ルールブック（PDF）](https://www.dropbox.com/scl/fi/005jy7sd5cjx7698niqej/.pdf?rlkey=y5zvezpxx0ffjtnlrf543ghyf&st=rnwhmh09&raw=1)
 
 ## ルール動画
 
