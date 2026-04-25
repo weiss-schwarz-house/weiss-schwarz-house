@@ -1,7 +1,7 @@
 ---
 date: 2026-04-04
 layout: default
-title: 神機共鳴コア・コネクション（CoreConnection）
+title: CoreConnection（神機共鳴コア・コネクション）
 toc: true
 players_min: 2
 players_max: 4

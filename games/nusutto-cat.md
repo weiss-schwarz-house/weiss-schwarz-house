@@ -1,8 +1,7 @@
 ---
 date: 2026-03-28
 layout: default
-title: ぬすっとキャット
-english_title: Meow Heist
+title: Meow Heist（ぬすっとキャット）
 toc: true
 players_min: 3
 players_max: 6

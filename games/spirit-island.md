@@ -23,7 +23,14 @@ thumbnail_alt: "スピリット・アイランド サムネイル"
 
 - ルール解説: [Bodolog ルール解説（Spirit Island）]({{ page.rulebook_url }})
 - ルールブック（基本）: [ルールブック（PDF）](https://www.dropbox.com/scl/fi/005jy7sd5cjx7698niqej/.pdf?rlkey=y5zvezpxx0ffjtnlrf543ghyf&st=rnwhmh09&raw=1)
-- ルールブック（ダウンロード）: [ダウンロード（PDF）](https://www.dropbox.com/scl/fi/005jy7sd5cjx7698niqej/.pdf?rlkey=y5zvezpxx0ffjtnlrf543ghyf&st=rnwhmh09&dl=1)
+- ルールブック（基本・ダウンロード）: [ダウンロード（PDF）](https://www.dropbox.com/scl/fi/005jy7sd5cjx7698niqej/.pdf?rlkey=y5zvezpxx0ffjtnlrf543ghyf&st=rnwhmh09&dl=1)
+
+## 拡張
+
+### 第一拡張：枝と鉤爪（Branch & Claw）
+
+- ルールブック（拡張）: [ルールブック（PDF）](https://www.dropbox.com/scl/fi/mbimdskodovqp5h3itnmi/.pdf?rlkey=bd6aldp6oq89n9z66dxob16la&st=qbdyhorm&raw=1)
+- ルールブック（拡張・ダウンロード）: [ダウンロード（PDF）](https://www.dropbox.com/scl/fi/mbimdskodovqp5h3itnmi/.pdf?rlkey=bd6aldp6oq89n9z66dxob16la&st=qbdyhorm&dl=1)
 
 ## ルール動画
 
