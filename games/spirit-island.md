@@ -22,6 +22,8 @@ thumbnail_alt: "スピリット・アイランド サムネイル"
 ## ルール
 
 - ルール解説: [Bodolog ルール解説（Spirit Island）]({{ page.rulebook_url }})
+- 参考サイト: [Spirit Island Wiki](https://spiritislandwiki.com/)
+- 公式FAQ（Living FAQ）: [Living FAQ（querki）](https://querki.net/u/darker/spirit-island-faq/#!spirit-island-faq)
 - ルールブック（基本）: [ルールブック（PDF）](https://www.dropbox.com/scl/fi/005jy7sd5cjx7698niqej/.pdf?rlkey=y5zvezpxx0ffjtnlrf543ghyf&st=rnwhmh09&raw=1)
 - ルールブック（基本・ダウンロード）: [ダウンロード（PDF）](https://www.dropbox.com/scl/fi/005jy7sd5cjx7698niqej/.pdf?rlkey=y5zvezpxx0ffjtnlrf543ghyf&st=rnwhmh09&dl=1)
 
