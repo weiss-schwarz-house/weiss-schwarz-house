@@ -3,6 +3,8 @@ date: 2026-04-25
 layout: default
 title: The War Chronicles of Ganymede Zero +（ガニメデ戦記Zero）
 toc: true
+time_min: 60
+time_max: 120
 players_min: 2
 players_max: 4
 tags:
