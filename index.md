@@ -32,6 +32,3 @@ title: ヴァイスシュヴァルツの館
     {% assign shown = shown | plus: 1 %}{% if shown >= max_show %}{% break %}{% endif %}
   {% endfor %}
 {% endif %}
-
----
----
