@@ -1,7 +1,7 @@
 ---
 date: 2026-06-13
 layout: default
-title: Nemesis: Retaliation（ネメシス リタリエーション）
+title: "Nemesis: Retaliation（ネメシス リタリエーション）"
 toc: true
 players_min: 1
 players_max: 5
