@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Board game placeholder thumbnail</title>
+  <desc id="desc">A placeholder thumbnail showing a tabletop board game scene.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#111827" flood-opacity=".16"/>
+    </filter>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#111827" flood-opacity=".14"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="480" fill="#f5f1e8"/>
+  <path d="M0 340h640v140H0z" fill="#e7dbc8"/>
+  <path d="M72 50h496c22 0 40 18 40 40v290c0 22-18 40-40 40H72c-22 0-40-18-40-40V90c0-22 18-40 40-40z" fill="#2f6b5f" filter="url(#shadow)"/>
+  <path d="M90 72h460c19 0 34 15 34 34v238c0 19-15 34-34 34H90c-19 0-34-15-34-34V106c0-19 15-34 34-34z" fill="#3f8a76"/>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M134 114h210v172H134z" fill="#e9ddc7" stroke="#243b53" stroke-width="7"/>
+    <path d="M158 138h66v50h-66z" fill="#f59e0b"/>
+    <path d="M240 138h70v50h-70z" fill="#60a5fa"/>
+    <path d="M158 206h66v52h-66z" fill="#ef4444"/>
+    <path d="M240 206h70v52h-70z" fill="#a3e635"/>
+    <path d="M130 114h218M134 198h210M232 118v166" stroke="#243b53" stroke-width="7" stroke-linecap="square"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M392 94h118c12 0 22 10 22 22v204c0 12-10 22-22 22H392c-12 0-22-10-22-22V116c0-12 10-22 22-22z" fill="#fef3c7" stroke="#92400e" stroke-width="6"/>
+    <path d="M392 94h118c12 0 22 10 22 22v45H370v-45c0-12 10-22 22-22z" fill="#f97316"/>
+    <path d="M400 184h102v16H400zM400 214h82v16h-82zM400 244h94v16h-94z" fill="#92400e" opacity=".55"/>
+    <text x="451" y="142" text-anchor="middle" fill="#fff7ed" font-family="Meiryo, Segoe UI, sans-serif" font-size="28" font-weight="700">GAME</text>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M148 326l70-32 60 132-70 32z" fill="#fff" stroke="#1f2937" stroke-width="5"/>
+    <path d="M235 310l75-8 16 144-75 8z" fill="#ffffff" stroke="#1f2937" stroke-width="5"/>
+    <path d="M166 341l42-19 10 22-42 19z" fill="#3b82f6"/>
+    <path d="M249 326l46-5 3 28-46 5z" fill="#ef4444"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <rect x="414" y="356" width="70" height="70" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="5"/>
+    <circle cx="436" cy="378" r="6" fill="#1f2937"/>
+    <circle cx="462" cy="378" r="6" fill="#1f2937"/>
+    <circle cx="449" cy="392" r="6" fill="#1f2937"/>
+    <circle cx="436" cy="406" r="6" fill="#1f2937"/>
+    <circle cx="462" cy="406" r="6" fill="#1f2937"/>
+  </g>
+
+  <g filter="url(#soft-shadow)">
+    <path d="M353 329a20 20 0 1 1-40 0 20 20 0 0 1 40 0zM321 349h24l10 48h-44z" fill="#dc2626"/>
+    <path d="M559 284a18 18 0 1 1-36 0 18 18 0 0 1 36 0zM530 302h22l9 44h-40z" fill="#2563eb"/>
+    <path d="M100 286a18 18 0 1 1-36 0 18 18 0 0 1 36 0zM71 304h22l9 44H62z" fill="#facc15"/>
+  </g>
+</svg>

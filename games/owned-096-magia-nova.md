@@ -1,0 +1,35 @@
+---
+layout: default
+title: 'MAGIA NOVA'
+players_min: 2
+players_max: 2
+time_min: 40
+time_max: 40
+tags:
+  - 'ボードゲーム'
+  - '対戦'
+  - 'デッキビルディング'
+thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_alt: 'MAGIA NOVA サムネイル'
+source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+---
+
+## 概要メモ
+
+- プレイ人数: 2〜2 人
+- プレイ時間: 40 分
+- 形式: 対戦
+- メカニクス: デッキビルディング
+- 拡張: なし
+
+## 拡張メモ
+
+- 【クラファン限定デザイン】MAGIA NOVAカードゲーム
+- 本体＋ストレッチゴール＋クラファン限定PRクレストカード15種セット
+- 2026/08以降
+
+## 備考
+
+- https://camp-fire.jp/projects/928528/view
+
+参照元: {{ page.source_note }}

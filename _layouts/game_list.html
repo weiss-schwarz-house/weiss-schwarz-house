@@ -32,7 +32,8 @@ layout: default
         {% if game.thumbnail_url %}
         <a href="{{ game.url | relative_url }}">
           {% assign pos = game.thumbnail_focus | default: 'center' %}
-          <div class="thumb{% if game.thumbnail_aspect == '16:9' %} thumb--16-9{% endif %}" style="background-image: url('{{ game.thumbnail_url }}'); background-position: {{ pos }};" aria-label="{{ game.title }}"></div>
+          {% assign thumb_url = game.thumbnail_url | relative_url %}
+          <div class="thumb{% if game.thumbnail_aspect == '16:9' %} thumb--16-9{% endif %}" style="background-image: url('{{ thumb_url }}'); background-position: {{ pos }};" aria-label="{{ game.title }}"></div>
         </a>
         {% else %}
         <span style="color: #ccc; font-size: 12px">No Image</span>
