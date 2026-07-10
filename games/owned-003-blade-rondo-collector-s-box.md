@@ -14,7 +14,7 @@ tags:
 thumbnail_url: 'https://shop.r10s.jp/panaino/cabinet/imgrc0087111595.jpg?v=1783696676305'
 thumbnail_alt: 'Blade Rondo Collector''s Box サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

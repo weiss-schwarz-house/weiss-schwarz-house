@@ -16,7 +16,7 @@ thumbnail_alt: 'アークノヴァ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.feuerland-spiele.de/spiele/arche-nova/'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Ark_Nova'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

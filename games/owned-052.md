@@ -13,7 +13,7 @@ tags:
 thumbnail_url: 'https://ogre.natalie.mu/media/news/comic/2025/0326/sekainoowarinodaiundoukai_1.jpg?imwidth=640&imdensity=1'
 thumbnail_alt: '世界の終わりの大運動会-小林さんちのメイドラゴン ボードゲーム- サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

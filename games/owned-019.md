@@ -14,7 +14,7 @@ thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mahjon
 thumbnail_alt: '麻雀 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Mahjong'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

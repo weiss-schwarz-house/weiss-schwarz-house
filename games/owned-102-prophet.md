@@ -13,7 +13,7 @@ tags:
 thumbnail_url: 'https://www.bear.cool/_next/image?url=https%3A%2F%2Fd2pe1b7tquzekz.cloudfront.net%2Fboard-game%2Fb35eb8d7-7cdd-4810-9f4f-2ce3616898d4.jpeg&w=3840&q=75'
 thumbnail_alt: 'PROPHET（プロフェット） サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

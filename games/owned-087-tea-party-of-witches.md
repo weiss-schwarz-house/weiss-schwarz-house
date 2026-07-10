@@ -14,6 +14,7 @@ tags:
 thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
 thumbnail_alt: '魔女のお茶会 / TEA PARTY OF THE WITCHES サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-10
 ---
 
 ## 概要メモ

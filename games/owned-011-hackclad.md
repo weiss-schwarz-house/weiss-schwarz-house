@@ -15,7 +15,7 @@ tags:
 thumbnail_url: 'https://baseec-img-mng.akamaized.net/images/item/origin/c32c544b4b5b7490733641d2fcfa5c72.png?imformat=generic&q=90&im=Resize,width=640,type=normal'
 thumbnail_alt: 'HacKClaD -ハッククラッド サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

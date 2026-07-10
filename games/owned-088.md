@@ -13,7 +13,7 @@ tags:
 thumbnail_url: 'https://tshop.r10s.jp/betaorido/cabinet/amayahoo/08548213/3386-005043.jpg?fitin=250:250'
 thumbnail_alt: 'ポケモンごいた サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

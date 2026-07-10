@@ -13,7 +13,7 @@ tags:
 thumbnail_url: 'https://cmonjapan.shop/cdn/shop/files/ColorFlushWebshop_Box3D_535x.jpg?v=1742793315'
 thumbnail_alt: 'COLOR FLUSH カラー・フラッシュ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

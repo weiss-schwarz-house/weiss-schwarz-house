@@ -14,7 +14,7 @@ tags:
 thumbnail_url: 'https://item-shopping.c.yimg.jp/i/n/hbst-store_4562452241784'
 thumbnail_alt: 'Eden''s Shadow サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

@@ -14,7 +14,7 @@ thumbnail_url: 'https://www.scorpionmasque.com/sites/scorpionmasque.com/files/st
 thumbnail_alt: 'スカイチーム サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.scorpionmasque.com/en/sky-team'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

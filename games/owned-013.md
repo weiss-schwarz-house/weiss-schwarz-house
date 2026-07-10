@@ -18,7 +18,7 @@ source_url: 'https://www.konami.com/games/jp/ja/products/dectet/'
 intro_url: 'https://yofukashiproject.com/dectet/'
 bgg_url: 'https://boardgamegeek.com/boardgame/381723/po-gong-noshi-zhong-zou-dungeon-and-dectet'
 bodoge_url: 'https://bodoge.hoobby.net/games/dungeon-dectet'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

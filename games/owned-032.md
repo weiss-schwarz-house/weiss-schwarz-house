@@ -14,7 +14,7 @@ thumbnail_url: 'https://d19y2ttatozxjp.cloudfront.net/assets/clank/heroImage_Pro
 thumbnail_alt: 'クランク！ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.direwolfdigital.com/clank/'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

@@ -13,7 +13,7 @@ tags:
 thumbnail_url: 'https://i.gzn.jp/img/2020/05/31/eresia/00_m.jpg'
 thumbnail_alt: 'Secret of Eden Collector’s Box サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

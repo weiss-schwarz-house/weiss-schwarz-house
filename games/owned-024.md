@@ -15,7 +15,7 @@ tags:
 thumbnail_url: 'https://cdn-ak.f.st-hatena.com/images/fotolife/x/xyoshixaki/20220712/20220712234415.jpg'
 thumbnail_alt: '異世界ギルドマスターズ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

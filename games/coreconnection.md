@@ -17,7 +17,7 @@ source_url: "https://keepdry.jp/coreconnection/eques/"
 thumbnail_url: "https://www.dropbox.com/scl/fi/vx2muhv2xn2coac9v1tn0/.png?rlkey=b92p0z12vzb7szszkx772l5fp&st=1ie2hzob&raw=1"
 thumbnail_alt: "神機共鳴コア・コネクション サムネイル"
 # weight: omitted -> auto-derived from time_max
-updated: 2026-04-25
+updated: 2026-07-10
 ---
 
 ## ルール

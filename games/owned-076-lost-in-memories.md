@@ -15,7 +15,7 @@ tags:
 thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=1024,da=n,ds=n,q=80,cc=FFFFFF)/post_image_9c7a3def-331d-4e6c-b983-02b1ebb2ccad.png'
 thumbnail_alt: 'Lost in Memories サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

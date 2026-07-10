@@ -14,7 +14,7 @@ thumbnail_url: 'https://stonemaiergames.com/wp-content/uploads/2023/12/3D-box.pn
 thumbnail_alt: 'ワイアームスパン サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.stonemaiergames.com/games/wyrmspan/'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

@@ -14,7 +14,7 @@ thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,c
 thumbnail_alt: '迷子 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 bodoge_url: 'https://bodoge.hoobby.net/games/maigo'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

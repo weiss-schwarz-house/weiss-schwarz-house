@@ -13,7 +13,7 @@ tags:
 thumbnail_url: 'https://elregalopara.com/45617-large_default/juego-jenga.jpg'
 thumbnail_alt: 'Jenga ジェンガ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 ## 概要メモ

@@ -16,7 +16,7 @@ source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.roxley.com/products/brass-lancashire'
 intro_url: 'https://arclightgames.jp/product/%e3%83%96%e3%83%a9%e3%82%b9%e3%83%a9%e3%83%b3%e3%82%ab%e3%82%b7%e3%83%a3%e3%83%bc/'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Brass_(board_game)'
-updated: 2026-07-11
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->
