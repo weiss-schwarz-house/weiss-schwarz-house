@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% if site.title_ja %}（{{ site.title_ja }}）{% endif %}</title>
 
     <style>
       :root {
@@ -44,8 +44,16 @@
 
       .site-title {
         font-weight: 700;
-        margin: 2px 0 12px 0;
+        margin: 2px 0 2px 0;
         font-size: 16px;
+      }
+      .site-subtitle {
+        color: #6b7280;
+        font-size: 12px;
+        line-height: 1.45;
+      }
+      .site-subtitle:last-of-type {
+        margin-bottom: 12px;
       }
 
       .nav-section {
@@ -121,6 +129,11 @@
       .page-title {
         font-size: 24px;
         margin: 0 0 10px 0;
+      }
+      .page-subtitle {
+        color: #6b7280;
+        font-size: 14px;
+        margin: -4px 0 16px 0;
       }
 
       /* ===== 詳細ページ用サムネイル ===== */
@@ -282,6 +295,8 @@
     <div class="layout">
       <aside class="sidebar">
         <div class="site-title">{{ site.title }}</div>
+        <div class="site-subtitle">{{ site.title_kana }}</div>
+        <div class="site-subtitle">{{ site.title_ja }}</div>
         {% include sidebar.html %}
       </aside>
 
@@ -298,6 +313,9 @@
       <main class="content">
         {% if page.title %}
         <h1 class="page-title">{{ page.title }}</h1>
+        {% if page.url == "/" %}
+        <div class="page-subtitle">{{ site.title_kana }} / {{ site.title_ja }}</div>
+        {% endif %}
 
         {% comment %} Published / Updated dates removed per site preference {% endcomment %}
         {% endif %} {% if page.thumbnail_url %}
