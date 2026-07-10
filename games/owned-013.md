@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '協力ゲーム'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://www.konami.com/products_master/jp_publish/dectet/jp/ja/images/dectet_01.png'
 thumbnail_alt: '破宮の十重奏（デクテット） サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.konami.com/games/jp/ja/products/dectet/'

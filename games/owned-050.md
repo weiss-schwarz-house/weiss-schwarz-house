@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'バッティング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/picture_e7a30ce8-9bc4-46bc-9526-4a9b15ba51bf.png?2026-07-11-00'
 thumbnail_alt: '迷子 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 bodoge_url: 'https://bodoge.hoobby.net/games/maigo'

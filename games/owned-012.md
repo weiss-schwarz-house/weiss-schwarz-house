@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://arclightgames.jp/wp-content/uploads/2022/02/cce4e0e66613686d3bd743872f891479-575x575.jpg'
 thumbnail_alt: 'モンスターイーター ～ダンジョン飯 ボードゲーム～ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/682mtet/'

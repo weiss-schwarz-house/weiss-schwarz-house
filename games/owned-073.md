@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '協力ゲーム'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://www.scorpionmasque.com/sites/scorpionmasque.com/files/st_boxcontent_en.jpg'
 thumbnail_alt: 'スカイチーム サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.scorpionmasque.com/en/sky-team'

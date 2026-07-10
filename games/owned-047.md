@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '協力ゲーム'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Gloomhaven_Cover_Art.jpg/250px-Gloomhaven_Cover_Art.jpg'
 thumbnail_alt: 'グルームヘイヴン サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://cephalofair.com/pages/gloomhaven'

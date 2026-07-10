@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://ogre.natalie.mu/media/news/comic/2025/0326/sekainoowarinodaiundoukai_1.jpg?imwidth=640&imdensity=1'
 thumbnail_alt: '世界の終わりの大運動会-小林さんちのメイドラゴン ボードゲーム- サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

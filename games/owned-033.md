@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'エリアマジョリティ（陣取り）'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://arclightgames.jp/wp-content/uploads/2019/06/74a3457f8fbccdb68ca3eae393e1b93d-575x575.jpg'
 thumbnail_alt: 'テラフォーミング・マーズ ～火星地球化計画～ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/%e3%83%86%e3%83%a9%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0%e3%83%9e%e3%83%bc%e3%82%ba/'

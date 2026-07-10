@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'バッティング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://img.gamemarket.jp/20240518_120130_名称未設定 5.jpg'
 thumbnail_alt: 'アリスの時計 inWonderGate サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

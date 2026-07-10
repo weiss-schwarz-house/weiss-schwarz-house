@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://i.gzn.jp/img/2020/05/31/eresia/00_m.jpg'
 thumbnail_alt: 'Secret of Eden Collector’s Box サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

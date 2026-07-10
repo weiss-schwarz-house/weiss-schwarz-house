@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '協力ゲーム'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://arclightgames.jp/wp-content/uploads/2020/04/a0699de877adf56c0d4593fc10e0e604-575x575.jpg'
 thumbnail_alt: 'イーオンズ・エンド サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/%e3%82%a4%e3%83%bc%e3%82%aa%e3%83%b3%e3%82%ba%e3%82%a8%e3%83%b3%e3%83%89/'

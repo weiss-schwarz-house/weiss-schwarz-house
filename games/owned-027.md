@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cdn.prod.website-files.com/67d17a45b4e1484b40ea8869/67d17a45b4e1484b40ea8ca0_Box%20image.webp'
 thumbnail_alt: 'アルナックの失われし遺跡 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://czechgames.com/en/lost-ruins-of-arnak/'

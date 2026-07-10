@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'バッティング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://japanimegames.com/cdn/shop/files/Miraris_3D_Box_47be6e55-9f3a-4d5a-94bf-fbecf3f4ba49.png?v=1750823534&width=672'
 thumbnail_alt: 'Miraris -Revelation サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

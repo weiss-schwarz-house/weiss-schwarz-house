@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ヒドゥンロール（正体隠匿）'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cdn-ak.f.st-hatena.com/images/fotolife/w/wantando/20200710/20200710163323.jpg'
 thumbnail_alt: 'シャドウレイダーズ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

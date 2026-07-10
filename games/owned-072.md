@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://pictures.rs-cdn.com/CF-a124e97b-07f9-4c8e-bedf-966b66093192/width=1110,height=685,fit=scale-down,sharpen=0.20/e242f7e55916ee3a04b39709a68919ca.png'
 thumbnail_alt: 'コーヒーラッシュ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

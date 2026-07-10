@@ -11,7 +11,7 @@ tags:
   - '協力ゲーム'
   - '対戦'
   - 'エリアマジョリティ（陣取り）'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cdn-ak.f.st-hatena.com/images/fotolife/x/xyoshixaki/20220712/20220712234415.jpg'
 thumbnail_alt: '異世界ギルドマスターズ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

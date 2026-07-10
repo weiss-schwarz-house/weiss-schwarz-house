@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mahjong_game.jpg/1280px-Mahjong_game.jpg'
 thumbnail_alt: '麻雀 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Mahjong'

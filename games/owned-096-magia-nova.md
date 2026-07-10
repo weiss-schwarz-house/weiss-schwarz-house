@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://static.camp-fire.jp/uploads/project_activity/image/819456/6_2.jpg?auto=format&fit=max&ref=projects_activities_project_activity'
 thumbnail_alt: 'MAGIA NOVA サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

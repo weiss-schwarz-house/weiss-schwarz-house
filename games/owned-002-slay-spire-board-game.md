@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '協力ゲーム'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://microplaynewmarket.com/cdn/shop/files/1_ed1a629e-e81c-4b9b-baae-677205d565b5_436x436.jpg?v=1722609905'
 thumbnail_alt: 'slay the spire the board game サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Slay_the_Spire'

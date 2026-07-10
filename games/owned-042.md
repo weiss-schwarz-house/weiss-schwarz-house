@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'エリアマジョリティ（陣取り）'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cdn.shopify.com/s/files/1/0246/2190/8043/files/BrassLancashire_RetailBoxImage_Left_a96a790f-876c-4311-9ea2-74dce7b16ecb.png?v=1756421884'
 thumbnail_alt: 'ブラス：ランカシャー サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.roxley.com/products/brass-lancashire'

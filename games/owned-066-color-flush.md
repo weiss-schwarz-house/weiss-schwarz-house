@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cmonjapan.shop/cdn/shop/files/ColorFlushWebshop_Box3D_535x.jpg?v=1742793315'
 thumbnail_alt: 'COLOR FLUSH カラー・フラッシュ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

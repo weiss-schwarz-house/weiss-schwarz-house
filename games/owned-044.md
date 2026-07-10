@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=auto,dh=517,cw=690,ch=517,da=l,ds=s,q=70,cc=FFFFFF)/item_443351db-8068-4295-9403-5a2ebdc68fb5.png'
 thumbnail_alt: 'ジャンブルダービー サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'エリアマジョリティ（陣取り）'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cdn.shopify.com/s/files/1/0246/2190/8043/products/top-section-product-image-alt.png?v=1581282813'
 thumbnail_alt: 'ブラス: バーミンガム サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.roxley.com/products/brass-birmingham'

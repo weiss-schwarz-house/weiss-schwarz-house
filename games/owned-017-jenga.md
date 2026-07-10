@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'バランスゲーム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://elregalopara.com/45617-large_default/juego-jenga.jpg'
 thumbnail_alt: 'Jenga ジェンガ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

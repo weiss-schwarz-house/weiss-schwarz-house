@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'ワーカープレイスメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://www.feuerland-spiele.de/fileadmin/_processed_/5/f/csm_Schachtel_5310327a3c.jpg'
 thumbnail_alt: 'アークノヴァ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.feuerland-spiele.de/spiele/arche-nova/'

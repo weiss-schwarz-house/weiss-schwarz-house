@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://d19y2ttatozxjp.cloudfront.net/assets/clank/heroImage_ProductLayout_baseClank.webp'
 thumbnail_alt: 'クランク！ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.direwolfdigital.com/clank/'

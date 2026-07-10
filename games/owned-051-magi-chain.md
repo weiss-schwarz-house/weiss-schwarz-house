@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=auto,dh=517,cw=690,ch=517,da=l,ds=s,q=70,cc=FFFFFF)/item_1b89d25a-752c-4a48-8fee-a7ea38b37a1d.jpg'
 thumbnail_alt: 'MAGI CHAIN (マギチェイン) ~知恵と神秘の冒険譚~ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

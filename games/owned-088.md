@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://tshop.r10s.jp/betaorido/cabinet/amayahoo/08548213/3386-005043.jpg?fitin=250:250'
 thumbnail_alt: 'ポケモンごいた サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://item-shopping.c.yimg.jp/i/n/hbst-store_4562452241784'
 thumbnail_alt: 'Eden''s Shadow サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

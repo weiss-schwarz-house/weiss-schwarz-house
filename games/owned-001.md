@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://www.atlus.co.jp/wp-content/uploads/2025/11/news-thumb_uo.jpg'
 thumbnail_alt: 'ユニコーンオーバーロード オリジナルカードゲーム サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.atlus.co.jp/news/22357/'

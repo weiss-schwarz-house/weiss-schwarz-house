@@ -11,7 +11,7 @@ tags:
   - '協力ゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://baseec-img-mng.akamaized.net/images/item/origin/c32c544b4b5b7490733641d2fcfa5c72.png?imformat=generic&q=90&im=Resize,width=640,type=normal'
 thumbnail_alt: 'HacKClaD -ハッククラッド サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

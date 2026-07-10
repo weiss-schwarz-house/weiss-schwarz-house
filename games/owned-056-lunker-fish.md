@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=auto,dh=900,cw=1200,ch=900,da=l,ds=s,q=70,cc=FFFFFF)/picture_37ccd7f4-4c13-4e17-af88-068aec2c8483.jpeg'
 thumbnail_alt: 'Lunker FISH(ランカーフィッシュ) サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---

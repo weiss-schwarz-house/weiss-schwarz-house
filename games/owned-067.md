@@ -10,7 +10,7 @@ tags:
   - 'ソロ'
   - '協力ゲーム'
   - 'ヒドゥンロール（正体隠匿）'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://arclightgames.jp/wp-content/uploads/2020/06/a5da2c327b8d407945fc658f69edcc67-575x575.jpg'
 thumbnail_alt: 'ネメシス サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/%e3%83%8d%e3%83%a1%e3%82%b7%e3%82%b9/'

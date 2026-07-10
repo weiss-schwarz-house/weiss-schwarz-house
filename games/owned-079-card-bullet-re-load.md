@@ -9,7 +9,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'バッティング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://www.freesc1.com/data/freesc/_/70726f647563742f32303235313032385f6134343338642e6a7067003430300000660023666666666666.jpg'
 thumbnail_alt: 'CARD BULLET Re：LOAD-カードバレット サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 ---
