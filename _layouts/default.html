@@ -63,13 +63,25 @@
       .page-title rt {
         font-size: 12px;
       }
-      .site-subtitle {
+      .title-kana {
+        display: inline-block;
+        margin-left: 8px;
+        padding-left: 8px;
+        border-left: 1px solid #d1d5db;
         color: #6b7280;
-        font-size: 12px;
-        line-height: 1.45;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 1.2;
+        vertical-align: baseline;
+        white-space: normal;
       }
-      .site-subtitle:last-of-type {
-        margin-bottom: 12px;
+      .page-title .title-kana {
+        margin-left: 10px;
+        padding-left: 10px;
+        font-size: 13px;
+      }
+      .site-title {
+        margin-bottom: 14px;
       }
 
       .nav-section {
@@ -145,11 +157,6 @@
       .page-title {
         font-size: 24px;
         margin: 0 0 10px 0;
-      }
-      .page-subtitle {
-        color: #6b7280;
-        font-size: 14px;
-        margin: -4px 0 16px 0;
       }
 
       /* ===== 詳細ページ用サムネイル ===== */
@@ -312,8 +319,8 @@
       <aside class="sidebar">
         <div class="site-title">
           <ruby>{{ site.title_ja }}<rt>{{ site.title }}</rt></ruby>
+          <span class="title-kana">{{ site.title_kana }}</span>
         </div>
-        <div class="site-subtitle">{{ site.title_kana }}</div>
         {% include sidebar.html %}
       </aside>
 
@@ -332,8 +339,8 @@
         {% if page.url == "/" %}
         <h1 class="page-title">
           <ruby>{{ site.title_ja }}<rt>{{ site.title }}</rt></ruby>
+          <span class="title-kana">{{ site.title_kana }}</span>
         </h1>
-        <div class="page-subtitle">{{ site.title_kana }}</div>
         {% else %}
         <h1 class="page-title">{{ page.title }}</h1>
         {% endif %}
