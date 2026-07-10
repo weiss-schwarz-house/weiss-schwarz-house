@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}ヴァイスシュヴァルツの館</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
     <style>
       :root {
@@ -281,7 +281,7 @@
   <body>
     <div class="layout">
       <aside class="sidebar">
-        <div class="site-title">ヴァイスシュヴァルツの館</div>
+        <div class="site-title">{{ site.title }}</div>
         {% include sidebar.html %}
       </aside>
 
