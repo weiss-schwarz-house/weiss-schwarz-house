@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Gloomhaven（グルームヘイヴン）'
 players_min: 1
@@ -16,6 +17,7 @@ source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://cephalofair.com/pages/gloomhaven'
 rulebook_url: 'https://online.flippingbook.com/view/598058/'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Gloomhaven'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Clank!（クランク！）'
 players_min: 2
@@ -13,6 +14,7 @@ thumbnail_url: 'https://d19y2ttatozxjp.cloudfront.net/assets/clank/heroImage_Pro
 thumbnail_alt: 'クランク！ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.direwolfdigital.com/clank/'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

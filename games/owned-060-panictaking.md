@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'PanicTaking/パニックテイキング'
 players_min: 2

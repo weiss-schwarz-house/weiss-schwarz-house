@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'MAGIA NOVA'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://static.camp-fire.jp/uploads/project_activity/image/819456/6_2.jpg?auto=format&fit=max&ref=projects_activities_project_activity'
 thumbnail_alt: 'MAGIA NOVA サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

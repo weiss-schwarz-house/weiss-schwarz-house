@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'すらいむ研究所'
 players_min: 2

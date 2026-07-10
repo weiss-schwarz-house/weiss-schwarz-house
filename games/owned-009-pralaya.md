@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Pralaya - プララーヤ -'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://japanimegames.com/cdn/shop/files/Pralaya_3D_Box_ec5b7388-278c-43e9-bcba-588b1a4057d0.png?v=1750823616&width=800'
 thumbnail_alt: 'Pralaya - プララーヤ - サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

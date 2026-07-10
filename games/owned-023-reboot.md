@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'オレとオマエの異世界転生REBOOT'
 players_min: 2

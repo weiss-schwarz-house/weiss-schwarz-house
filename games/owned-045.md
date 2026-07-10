@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: '推しのご'
 players_min: 2

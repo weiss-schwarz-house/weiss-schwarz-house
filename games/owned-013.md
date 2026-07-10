@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Dungeon & Dectet（破宮の十重奏 / デクテット）'
 players_min: 1
@@ -17,6 +18,7 @@ source_url: 'https://www.konami.com/games/jp/ja/products/dectet/'
 intro_url: 'https://yofukashiproject.com/dectet/'
 bgg_url: 'https://boardgamegeek.com/boardgame/381723/po-gong-noshi-zhong-zou-dungeon-and-dectet'
 bodoge_url: 'https://bodoge.hoobby.net/games/dungeon-dectet'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

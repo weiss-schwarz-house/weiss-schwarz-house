@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Jenga ジェンガ'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://elregalopara.com/45617-large_default/juego-jenga.jpg'
 thumbnail_alt: 'Jenga ジェンガ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

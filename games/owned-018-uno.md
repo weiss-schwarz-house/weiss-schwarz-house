@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'UNO ウノ'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://images.mattel.net/image/upload/w_646,f_auto,c_scale/shop-us-prod/files/r4iltbe8ewykaxuase7z_cae50e11-7115-48e1-99b6-c3022a613a06.png'
 thumbnail_alt: 'UNO ウノ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

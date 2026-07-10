@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'アリスの時間迷宮'
 players_min: 1

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Ark Nova（アークノヴァ）'
 players_min: 1
@@ -15,6 +16,7 @@ thumbnail_alt: 'アークノヴァ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.feuerland-spiele.de/spiele/arche-nova/'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Ark_Nova'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

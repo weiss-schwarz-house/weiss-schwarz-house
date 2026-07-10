@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Mahjong（麻雀）'
 players_min: 2
@@ -13,6 +14,7 @@ thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mahjon
 thumbnail_alt: '麻雀 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Mahjong'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

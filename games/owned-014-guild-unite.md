@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'GUILD UNITE ギルドユナイト'
 players_min: 2

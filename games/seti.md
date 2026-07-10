@@ -20,6 +20,7 @@ source_url: "https://hobbyjapan.games/seti/"
 thumbnail_url: "https://www.dropbox.com/scl/fi/ffqznn0amzokvxulb1rrh/SETI.png?rlkey=5sb6vz7v0e261b3ix4ujobk2k&st=tt4a2dea&raw=1"
 thumbnail_alt: "SETI：地球外知的生命体探査 サムネイル"
 # weight: omitted -> auto-derived from time_max
+updated: 2026-04-19
 ---
 
 ## ルール

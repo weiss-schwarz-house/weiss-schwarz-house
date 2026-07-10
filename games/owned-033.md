@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Terraforming Mars（テラフォーミング・マーズ ～火星地球化計画～）'
 players_min: 1
@@ -16,6 +17,7 @@ source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/%e3%83%86%e3%83%a9%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9f%e3%83%b3%e3%82%b0%e3%83%9e%e3%83%bc%e3%82%ba/'
 intro_url: 'https://www.fryxgames.se/games/terraforming-mars/'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Terraforming_Mars_(board_game)'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Miraris -Revelation'
 players_min: 1
@@ -13,6 +14,7 @@ tags:
 thumbnail_url: 'https://japanimegames.com/cdn/shop/files/Miraris_3D_Box_47be6e55-9f3a-4d5a-94bf-fbecf3f4ba49.png?v=1750823534&width=672'
 thumbnail_alt: 'Miraris -Revelation サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

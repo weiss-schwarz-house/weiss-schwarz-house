@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'トワイライトラヴィーン~隠されたる星導の秘宝'
 players_min: 2

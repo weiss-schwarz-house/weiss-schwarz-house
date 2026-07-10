@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Lunker FISH(ランカーフィッシュ)'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=auto,dh=900,cw=1200,ch=900,da=l,ds=s,q=70,cc=FFFFFF)/picture_37ccd7f4-4c13-4e17-af88-068aec2c8483.jpeg'
 thumbnail_alt: 'Lunker FISH(ランカーフィッシュ) サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

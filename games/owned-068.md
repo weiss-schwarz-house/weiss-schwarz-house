@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Wyrmspan（ワイアームスパン）'
 players_min: 2
@@ -13,6 +14,7 @@ thumbnail_url: 'https://stonemaiergames.com/wp-content/uploads/2023/12/3D-box.pn
 thumbnail_alt: 'ワイアームスパン サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.stonemaiergames.com/games/wyrmspan/'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

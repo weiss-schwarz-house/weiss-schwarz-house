@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'The Lord of the Rings: Duel for Middle-earth（指輪物語：デュエル 中つ国の決戦 日本語版）'
 players_min: 2
@@ -13,6 +14,7 @@ thumbnail_url: 'https://www.gameology.com.au/cdn/shop/files/TheLordoftheRingsDue
 thumbnail_alt: '指輪物語：デュエル 中つ国の決戦 日本語版 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.rprod.com/en/games/the-lord-of-the-rings-duel-for-middle-earth'
+updated: 2026-07-11
 ---
 
 <!-- researched-links:start -->

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'アリスの時計 inWonderGate'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://img.gamemarket.jp/20240518_120130_名称未設定 5.jpg'
 thumbnail_alt: 'アリスの時計 inWonderGate サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

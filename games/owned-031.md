@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: '精霊回路ドライヴ'
 players_min: 1

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'HacKClaD -ハッククラッド'
 players_min: 1
@@ -14,6 +15,7 @@ tags:
 thumbnail_url: 'https://baseec-img-mng.akamaized.net/images/item/origin/c32c544b4b5b7490733641d2fcfa5c72.png?imformat=generic&q=90&im=Resize,width=640,type=normal'
 thumbnail_alt: 'HacKClaD -ハッククラッド サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

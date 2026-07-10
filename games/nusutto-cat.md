@@ -14,6 +14,7 @@ tags:
 rulebook_url: "https://gamemarket.jp/game/186162"
 thumbnail_url: "https://www.dropbox.com/scl/fi/xrur20vmqrbsrz2f1pynd/.png?rlkey=tffavsmhzm3m22m9ip2m41mmn&st=dmmoksgo&raw=1"
 thumbnail_alt: "ぬすっとキャット サムネイル"
+updated: 2026-04-25
 ---
 
 ## ルール
