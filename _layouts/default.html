@@ -47,6 +47,22 @@
         margin: 2px 0 2px 0;
         font-size: 16px;
       }
+      .site-title ruby,
+      .page-title ruby {
+        ruby-align: center;
+      }
+      .site-title rt,
+      .page-title rt {
+        color: #6b7280;
+        font-weight: 500;
+        letter-spacing: 0;
+      }
+      .site-title rt {
+        font-size: 10px;
+      }
+      .page-title rt {
+        font-size: 12px;
+      }
       .site-subtitle {
         color: #6b7280;
         font-size: 12px;
@@ -294,9 +310,10 @@
   <body>
     <div class="layout">
       <aside class="sidebar">
-        <div class="site-title">{{ site.title }}</div>
+        <div class="site-title">
+          <ruby>{{ site.title_ja }}<rt>{{ site.title }}</rt></ruby>
+        </div>
         <div class="site-subtitle">{{ site.title_kana }}</div>
-        <div class="site-subtitle">{{ site.title_ja }}</div>
         {% include sidebar.html %}
       </aside>
 
@@ -312,9 +329,13 @@
 
       <main class="content">
         {% if page.title %}
-        <h1 class="page-title">{{ page.title }}</h1>
         {% if page.url == "/" %}
-        <div class="page-subtitle">{{ site.title_kana }} / {{ site.title_ja }}</div>
+        <h1 class="page-title">
+          <ruby>{{ site.title_ja }}<rt>{{ site.title }}</rt></ruby>
+        </h1>
+        <div class="page-subtitle">{{ site.title_kana }}</div>
+        {% else %}
+        <h1 class="page-title">{{ page.title }}</h1>
         {% endif %}
 
         {% comment %} Published / Updated dates removed per site preference {% endcomment %}
