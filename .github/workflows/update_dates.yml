@@ -5,7 +5,14 @@ on:
     branches: [ main, master ]
     paths:
       - 'games/**'
+      - 'scripts/update_game_dates.py'
+      - '.github/workflows/update_dates.yml'
+  schedule:
+    - cron: '0 18 * * *'
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   update-dates:
@@ -21,11 +28,11 @@ jobs:
           python-version: '3.x'
 
       - name: Run update script
+        id: run_update
         run: |
           python3 scripts/update_game_dates.py
 
       - name: Push changes
-        if: ${{ steps.run_update.outcome == 'success' || true }}
         run: |
           git status --porcelain
           if [ -n "$(git status --porcelain)" ]; then

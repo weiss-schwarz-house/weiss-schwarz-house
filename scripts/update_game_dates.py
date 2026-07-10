@@ -120,13 +120,9 @@ def main():
                 print(f'Updated {rel}')
 
     if changed_files:
-        # configure git and commit
-        subprocess.check_call(['git', 'config', 'user.name', 'github-actions[bot]'])
-        subprocess.check_call(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'])
-        subprocess.check_call(['git', 'add'] + changed_files)
-        msg = 'chore: update game dates by script'
-        subprocess.check_call(['git', 'commit', '-m', msg])
-        print('Committed changes')
+        print('Changed files:')
+        for path in changed_files:
+            print(f' - {path}')
     else:
         print('No changes')
 
