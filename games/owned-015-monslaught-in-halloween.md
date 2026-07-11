@@ -14,7 +14,7 @@ thumbnail_url: 'https://cf.geekdo-images.com/FXpGNayApsLKV2DYO1yGaw__small/img/P
 thumbnail_alt: 'Monslaught in Halloween モンスロート イン ハロウィン サムネイル'
 bgg_url: 'https://boardgamegeek.com/boardgame/362479'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-10
+updated: 2026-07-12
 ---
 
 ## 概要メモ

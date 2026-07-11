@@ -15,7 +15,7 @@ thumbnail_url: 'https://cf.geekdo-images.com/uNQiUv1tJ7WO4DnH2ooaVg__small/img/h
 thumbnail_alt: 'Lemures レムレース サムネイル'
 bgg_url: 'https://boardgamegeek.com/boardgame/351925'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-10
+updated: 2026-07-12
 ---
 
 ## 概要メモ
