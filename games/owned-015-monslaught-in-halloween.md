@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cf.geekdo-images.com/FXpGNayApsLKV2DYO1yGaw__small/img/PxpZ8zIKVY-31LVjL9RdnPojQIQ=/fit-in/200x150/filters:strip_icc()/pic6848174.png'
 thumbnail_alt: 'Monslaught in Halloween モンスロート イン ハロウィン サムネイル'
+bgg_url: 'https://boardgamegeek.com/boardgame/362479'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---

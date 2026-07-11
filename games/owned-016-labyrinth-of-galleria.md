@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - '可変ボード'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cf.geekdo-images.com/9dcmcSG_eKiyXA-3_00jGA__small/img/mWKYjGYMrahi7SlY2iY8gQuw0P0=/fit-in/200x150/filters:strip_icc()/pic7383981.jpg'
 thumbnail_alt: 'Labyrinth of Galleria サムネイル'
+bgg_url: 'https://boardgamegeek.com/boardgame/380676'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---

@@ -247,6 +247,23 @@
         align-items: start;
       }
 
+      .bgg-attribution {
+        margin: 32px 0 8px;
+        padding-top: 16px;
+        border-top: 1px solid rgba(128, 128, 128, 0.25);
+        text-align: center;
+      }
+
+      .bgg-attribution img {
+        width: 160px;
+        height: auto;
+      }
+
+      .bgg-api-source {
+        margin-top: 32px;
+        font-size: 0.9rem;
+      }
+
       .toc {
         border-left: 1px solid #e5e7eb;
         padding-left: 14px;
@@ -360,6 +377,13 @@
             {% endif %}
 
             {{ content }}
+
+            {% if page.bgg_url %}
+            <section class="bgg-api-source" aria-label="BoardGameGeek data source">
+              <h2>データ出典</h2>
+              <p>このページの一部データは <a href="{{ page.bgg_url }}" rel="external">BoardGameGeek</a> を参照しています。</p>
+            </section>
+            {% endif %}
           </article>
 
           <!-- 目次（ページ側で toc: true にすると表示） -->
@@ -374,6 +398,12 @@
         </div>
       </main>
     </div>
+
+    <footer class="bgg-attribution">
+      <a href="https://boardgamegeek.com/" rel="external" aria-label="BoardGameGeek">
+        <img src="{{ '/assets/powered-by-bgg.png' | relative_url }}" alt="Powered by BoardGameGeek" />
+      </a>
+    </footer>
 
     <script>
       // ===== TOC generator (no plugin) =====
