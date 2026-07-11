@@ -14,7 +14,7 @@ thumbnail_url: 'https://cf.geekdo-images.com/9dcmcSG_eKiyXA-3_00jGA__small/img/m
 thumbnail_alt: 'Labyrinth of Galleria サムネイル'
 bgg_url: 'https://boardgamegeek.com/boardgame/380676'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
-updated: 2026-07-12
+updated: 2026-07-11
 ---
 
 ## 概要メモ
