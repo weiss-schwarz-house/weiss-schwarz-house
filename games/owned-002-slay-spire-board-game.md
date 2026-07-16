@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Slay the Spire: The Board Game'
 players_min: 2
@@ -13,6 +14,7 @@ thumbnail_url: 'https://microplaynewmarket.com/cdn/shop/files/1_ed1a629e-e81c-4b
 thumbnail_alt: 'slay the spire the board game サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Slay_the_Spire'
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

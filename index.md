@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ヴァイスシュヴァルツの館
+title: Haus der Weißen Schatten
 ---
 ## はじめに
 このサイトは、サークル活動でプレイするボードゲームのルール・要点をまとめた非公式です。

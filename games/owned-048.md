@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'アリスの時間迷宮'
 players_min: 1
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
 thumbnail_alt: 'アリスの時間迷宮 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-10
 ---
 
 ## 概要メモ

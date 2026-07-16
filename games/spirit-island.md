@@ -17,6 +17,7 @@ source_url: "https://bodolog.com/category/boardgame/rule-review/spirit-island/"
 thumbnail_url: "https://www.dropbox.com/scl/fi/58napvpcb7wx93zv396tw/.png?rlkey=dm196m1493x7yfhhbbjr5lqi2&st=43a8jp4x&raw=1"
 thumbnail_alt: "スピリット・アイランド サムネイル"
 # weight: omitted -> auto-derived from time_max
+updated: 2026-07-10
 ---
 
 ## ルール

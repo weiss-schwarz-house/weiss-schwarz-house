@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Fantastic Age'
 players_min: 1
@@ -10,9 +11,11 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cf.geekdo-images.com/38KuV19fjB4f7aw9E8UoPw__small/img/mz8MBRHhBWc2-nhILPXunlNx10E=/fit-in/200x150/filters:strip_icc()/pic8257157.jpg'
 thumbnail_alt: 'Fantastic Age サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
+bgg_url: 'https://boardgamegeek.com/boardgame/422936'
 ---
 
 ## 概要メモ

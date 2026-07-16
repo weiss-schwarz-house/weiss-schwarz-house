@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Nemesis（ネメシス）'
 players_min: 1
@@ -15,6 +16,7 @@ thumbnail_alt: 'ネメシス サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/%e3%83%8d%e3%83%a1%e3%82%b7%e3%82%b9/'
 intro_url: 'https://awakenrealms.com/games/nemesis/'
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

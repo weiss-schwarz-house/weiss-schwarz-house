@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Heart of Crown～ハートオブクラウン～ 第２版'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://gamerholic.com.au/cdn/shop/files/266608_1024x1024.jpg?v=1758632360'
 thumbnail_alt: 'Heart of Crown～ハートオブクラウン～ 第２版 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-10
 ---
 
 ## 概要メモ

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Unicorn Overlord Original Card Game（ユニコーンオーバーロード オリジナルカードゲーム）'
 players_min: 2
@@ -14,6 +15,7 @@ thumbnail_alt: 'ユニコーンオーバーロード オリジナルカードゲ
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://www.atlus.co.jp/news/22357/'
 bodoge_url: 'https://bodoge.hoobby.net/games/unicorn-overlord-original-card-game'
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->

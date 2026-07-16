@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: '精霊回路ドライヴ'
 players_min: 1
@@ -13,6 +14,7 @@ tags:
 thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
 thumbnail_alt: '精霊回路ドライヴ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-10
 ---
 
 ## 概要メモ

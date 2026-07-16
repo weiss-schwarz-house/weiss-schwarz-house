@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'GUILD UNITE ギルドユナイト'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
 thumbnail_alt: 'GUILD UNITE ギルドユナイト サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-10
 ---
 
 ## 概要メモ

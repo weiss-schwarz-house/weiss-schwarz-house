@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Shadow Raiders（シャドウレイダーズ）'
 players_min: 2
@@ -12,6 +13,7 @@ tags:
 thumbnail_url: 'https://cdn-ak.f.st-hatena.com/images/fotolife/w/wantando/20200710/20200710163323.jpg'
 thumbnail_alt: 'シャドウレイダーズ サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-10
 ---
 
 ## 概要メモ

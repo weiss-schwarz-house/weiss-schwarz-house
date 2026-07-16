@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Lemures レムレース'
 players_min: 1
@@ -10,9 +11,11 @@ tags:
   - 'ソロ'
   - '協力ゲーム'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://cf.geekdo-images.com/uNQiUv1tJ7WO4DnH2ooaVg__small/img/hkZxxZpwez8qHJ03iNeEePtn46U=/fit-in/200x150/filters:strip_icc()/pic6620417.jpg'
 thumbnail_alt: 'Lemures レムレース サムネイル'
+bgg_url: 'https://boardgamegeek.com/boardgame/351925'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
+updated: 2026-07-11
 ---
 
 ## 概要メモ

@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 layout: default
 title: 'Lost Ruins of Arnak（アルナックの失われし遺跡）'
 players_min: 1
@@ -15,6 +16,7 @@ thumbnail_alt: 'アルナックの失われし遺跡 サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://czechgames.com/en/lost-ruins-of-arnak/'
 rulebook_url: 'https://czechgames.com/files/rules/lost-ruins-of-arnak-rules-en.pdf'
+updated: 2026-07-10
 ---
 
 <!-- researched-links:start -->
