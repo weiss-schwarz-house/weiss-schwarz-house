@@ -399,11 +399,13 @@
       </main>
     </div>
 
-    <footer class="bgg-attribution">
-      <a href="https://boardgamegeek.com/" rel="external" aria-label="BoardGameGeek">
-        <img src="{{ '/assets/powered-by-bgg.png' | relative_url }}" alt="Powered by BoardGameGeek" />
-      </a>
-    </footer>
+    {% if page.path contains 'games/' and page.path != 'games/index.md' %}
+      <footer class="bgg-attribution">
+        <a href="https://boardgamegeek.com/" rel="external" aria-label="BoardGameGeek">
+          <img src="{{ '/assets/powered-by-bgg.png' | relative_url }}" alt="Powered by BoardGameGeek" />
+        </a>
+      </footer>
+    {% endif %}
 
     <script>
       // ===== TOC generator (no plugin) =====
