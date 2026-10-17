@@ -1,7 +1,7 @@
 ---
 date: 2026-10-17
 layout: default
-title: Metal Gear Solid: The Board Game（メタルギア ソリッド：ザ・ボードゲーム）
+title: "Metal Gear Solid: The Board Game - Integral Edition（メタルギア ソリッド：ザ・ボードゲーム インテグラル・エディション）"
 toc: true
 players_min: 1
 players_max: 4
@@ -19,7 +19,7 @@ source_url: "https://boardgamegeek.com/boardgame/266529/metal-gear-solid-the-boa
 official_url: "https://www.cmon.com/products/metal-gear-solid-the-board-game/"
 japanese_url: "https://cmonjapan.shop/products/metal-gear-solid"
 rulebook_url: "https://www.dropbox.com/scl/fi/ygfe8wlt2bhw1fpxlfn2h/.pdf?rlkey=2yv6kjd3dcc9au6yu9v6y8hbd&st=dkumzg6y&raw=1"
-thumbnail_url: "https://time2play.bg/attachments/26a1794nmglxdm05nx722bks0/main.webp"
+thumbnail_url: "https://cmonjapan.shop/cdn/shop/files/MGS-6b_largeJPN_535x.jpg?v=1779341152"
 thumbnail_alt: "メタルギア ソリッド：ザ・ボードゲームのボックスアート"
 # weight: omitted -> auto-derived from time_max
 ---
