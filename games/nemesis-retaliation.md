@@ -14,6 +14,7 @@ tags:
   - SF
   - 重ゲー
 rulebook_url: "https://drive.google.com/file/d/1h21Vd-4NSN8Sa2MVR0pXeI5t3R7j7Wyl/view?usp=drive_link"
+download_url: "https://awakenrealms.com/download"
 source_url: "https://arclightgames.jp/product/160tiz/"
 supplement_errata_url: "https://arclightgames.jp/808tdser/"
 expansion_1_url: "https://drive.google.com/file/d/1g1QW1tuGfYncg6jqZRqUFd4veCnjC8fN/view?usp=drive_link"
@@ -27,6 +28,10 @@ thumbnail_alt: "ネメシス リタリエーション サムネイル"
 ## ルール
 
 - ルールブック（有志翻訳ルール。公式翻訳は別途追加予定）: [Google Drive]({{ page.rulebook_url }})
+
+## ダウンロード
+
+- [Awaken Realms ダウンロードページ]({{ page.download_url }})
 
 ## 補足エラッタ
 

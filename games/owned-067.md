@@ -16,6 +16,8 @@ thumbnail_alt: 'ネメシス サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 source_url: 'https://arclightgames.jp/product/%e3%83%8d%e3%83%a1%e3%82%b7%e3%82%b9/'
 intro_url: 'https://awakenrealms.com/games/nemesis/'
+rulebook_url: 'https://awakenrealms.com/images/download/Nemesis/ENG/RULEBOOK_280x280mm_bleed3mm_28pages_PRINT.pdf'
+download_url: 'https://awakenrealms.com/download'
 updated: 2026-07-10
 ---
 
@@ -23,6 +25,14 @@ updated: 2026-07-10
 ## 紹介
 
 - 紹介ページ: [参照ページ]({{ page.intro_url }})
+
+## ルール
+
+- 英語版ルールブック: [PDF]({{ page.rulebook_url }})
+
+## ダウンロード
+
+- [Awaken Realms ダウンロードページ]({{ page.download_url }})
 
 ## 公式サイト
 
