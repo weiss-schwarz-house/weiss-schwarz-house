@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - 'ソロ'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://d2pe1b7tquzekz.cloudfront.net/board-game/c3d6ff99-d03e-4395-b1be-7e80e4e85e73.png'
 thumbnail_alt: 'スターリットセブン サムネイル'
+source_url: 'https://www.bear.cool/board-game/goods/58315/info'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -24,4 +25,4 @@ updated: 2026-07-10
 - メカニクス: アクションポイントシステム
 - 拡張: あり
 
-参照元: {{ page.source_note }}
+参照元: [Bear.cool 商品ページ]({{ page.source_url }})

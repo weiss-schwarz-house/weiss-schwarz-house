@@ -1,7 +1,7 @@
 ---
 date: 2026-07-09
 layout: default
-title: 'Bless me!'
+title: 'Bless me!（ブレスミー）'
 players_min: 2
 players_max: 2
 time_min: 15
@@ -10,8 +10,8 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
-thumbnail_alt: 'Bless me! サムネイル'
+thumbnail_url: 'https://pbs.twimg.com/media/Ga-RLo3b0AAxxyo?format=jpg&name=medium'
+thumbnail_alt: 'Bless me!（ブレスミー） サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---

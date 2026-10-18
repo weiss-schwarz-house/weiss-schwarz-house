@@ -4,15 +4,16 @@ layout: default
 title: '精霊回路ドライヴ'
 players_min: 1
 players_max: 4
-time_min: 60
-time_max: 60
+time_min: 50
+time_max: 90
 tags:
   - 'ボードゲーム'
   - 'ソロ'
   - '協力ゲーム'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/picture_432c6905-0b5e-4603-b3be-c44d9eaf6d85.png?2026-10-19-01'
 thumbnail_alt: '精霊回路ドライヴ サムネイル'
+source_url: 'https://bodoge.hoobby.net/games/seirei-kairo-drive-ctrlzzero'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -20,7 +21,7 @@ updated: 2026-07-10
 ## 概要メモ
 
 - プレイ人数: 1〜4 人
-- プレイ時間: 60 分
+- プレイ時間: 50〜90 分
 - 形式: ソロ/協力
 - メカニクス: ハンドマネージメント
 - 拡張: あり
@@ -39,4 +40,4 @@ updated: 2026-07-10
 - 精霊回路ドライヴCtrl-Z／ゼロ　拡張８「天剣」
 - 精霊回路ドライヴCtrl-Z／ゼロ　拡張１０＾６０「那由多」
 
-参照元: {{ page.source_note }}
+参照元: [ボドゲーマ 作品ページ]({{ page.source_url }})
