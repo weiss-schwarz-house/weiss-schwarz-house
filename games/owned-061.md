@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://img.gamemarket.jp/20250506_120602_IMG_2735.JPEG'
 thumbnail_alt: 'すらいむ研究所 サムネイル'
+source_url: 'https://gamemarket.jp/game/185609'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -28,4 +29,4 @@ updated: 2026-07-10
 
 - https://gamemarket.jp/game/185609
 
-参照元: {{ page.source_note }}
+参照元: [ゲームマーケット掲載ページ]({{ page.source_url }})

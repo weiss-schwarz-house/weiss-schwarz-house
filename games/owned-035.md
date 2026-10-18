@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://image-bodoge.cdn-hoobby.net/small_light(dw=1200,dh=630,cw=1200,ch=630,da=s,ds=s,q=90,cc=FFFFFF)/picture_1c78df39-305e-4a88-b949-6c2c518f755f.jpg?2026-10-19-01'
 thumbnail_alt: '妹再生産 サムネイル'
+source_url: 'https://bodoge.hoobby.net/games/imouto-saiseisan'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -24,4 +25,4 @@ updated: 2026-07-10
 - メカニクス: アクションポイントシステム
 - 拡張: なし
 
-参照元: {{ page.source_note }}
+参照元: [ボドゲーマ 作品ページ]({{ page.source_url }})

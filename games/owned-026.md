@@ -11,8 +11,9 @@ tags:
   - 'ソロ'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://img.gamemarket.jp/20240727_135906_1_%E7%AE%B1%E5%90%88%E6%88%90.jpg'
 thumbnail_alt: 'トゥルーマリンショー サムネイル'
+source_url: 'https://gamemarket.jp/game/177610'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -34,4 +35,4 @@ updated: 2026-07-10
 - トゥルーマリンショー2
 - トゥルーマリンショー
 
-参照元: {{ page.source_note }}
+参照元: [ゲームマーケット掲載ページ]({{ page.source_url }})

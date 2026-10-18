@@ -11,8 +11,9 @@ tags:
   - '対戦'
   - 'ハンドマネージメント'
   - 'エンジンビルド'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://i.kickstarter.com/assets/046/213/087/bc333fbeedafca15fc2a7b1a054dfb07_original.jpg?anim=false&fit=scale-down&origin=ugc&q=92&sig=QT2Zi6CyL1H37fIDcLHHdgmEYu6z6guvWrwUCiGnBF8%3D&v=1724663731&width=700'
 thumbnail_alt: '魔女のお茶会 / TEA PARTY OF THE WITCHES サムネイル'
+source_url: 'https://www.kickstarter.com/projects/laughsketch/tea-party-of-the-witches?lang=ja'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -32,7 +33,7 @@ updated: 2026-07-10
 
 ## 備考
 
-- https://www.kickstarter.com/projects/laughsketch/tea-party-of-the-witches?lang=ja
+- Kickstarter プロジェクトページ: [魔女のお茶会]({{ page.source_url }})
 - 専用インサート購入済み
 
-参照元: {{ page.source_note }}
+参照元: [Kickstarter]({{ page.source_url }})

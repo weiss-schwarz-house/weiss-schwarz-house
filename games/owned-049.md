@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'アクションポイントシステム'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://d2pe1b7tquzekz.cloudfront.net/board-game/goods/690afe40-f581-4fea-8400-0b24f6634420.jpeg'
 thumbnail_alt: 'トワイライトラヴィーン~隠されたる星導の秘宝 サムネイル'
+source_url: 'https://www.bear.cool/board-game/goods/8247/info'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
 ---
@@ -28,4 +29,4 @@ updated: 2026-07-10
 
 - https://www.kradia-project.com/kp003-jp
 
-参照元: {{ page.source_note }}
+参照元: [Bear.cool 商品ページ]({{ page.source_url }})
