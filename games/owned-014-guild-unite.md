@@ -10,7 +10,7 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'デッキビルディング'
-thumbnail_url: '/assets/thumbs/placeholder-board-game.svg'
+thumbnail_url: 'https://booth.pximg.net/522a4bce-03f1-4b39-bc6d-db0402ea5b90/i/4922198/14e5c738-a112-4235-8f96-88557c1deef4_base_resized.jpg'
 thumbnail_alt: 'GUILD UNITE ギルドユナイト サムネイル'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 updated: 2026-07-10
