@@ -10,8 +10,9 @@ tags:
   - 'ボードゲーム'
   - '対戦'
   - 'ハンドマネージメント'
-thumbnail_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mahjong_game.jpg/1280px-Mahjong_game.jpg'
+thumbnail_url: 'https://image.biccamera.com/img/00000012983085_A01.jpg?sr.dw=600&sr.jqh=60&sr.dh=600&sr.mat=1'
 thumbnail_alt: '麻雀 サムネイル'
+source_url: 'https://image.biccamera.com/img/00000012983085_A01.jpg?sr.dw=600&sr.jqh=60&sr.dh=600&sr.mat=1'
 source_note: 'ボードゲームリスト.xlsm から作成した仮ページ'
 wikipedia_url: 'https://en.wikipedia.org/wiki/Mahjong'
 updated: 2026-07-10
@@ -31,4 +32,4 @@ updated: 2026-07-10
 - メカニクス: ハンドマネージメント
 - 拡張: なし
 
-参照元: {{ page.source_note }}
+参照元: [ビックカメラ掲載画像]({{ page.source_url }})
