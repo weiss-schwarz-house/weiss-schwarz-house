@@ -47,7 +47,7 @@
 
 ```yaml
 layout: default
-title: <ゲーム名>            # 必須
+title: <英語名（日本語名）>   # 必須
 players_min: <整数>          # 必須
 players_max: <整数>          # 必須
 time_min: <分>               # 必須（分）
@@ -63,6 +63,8 @@ bgg_url: <任意のBGGページ>
 ```
 
 - 補足:
+  - ゲームの表示タイトルは、英語名（日本語名）の形式で記載します（例: `DREAM THESIS（ドリームテーゼ）`）。片方の正式名称がない場合は、確認できる正式名称を使用します。
+  - ゲーム一覧は front matter の `title` をそのまま表示するため、この形式は各ゲームページの `title` に設定します。
   - `players_min/max` と `time_min/max` はリスト生成に必須です。
   - `date`/`updated` が無いと「最近追加」表示の安定性が落ちます。スクリプトで補完可能です。
 
